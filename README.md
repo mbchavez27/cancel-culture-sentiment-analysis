@@ -1,8 +1,7 @@
 # The Dynamics of Cancel Culture: A Social Network and Sentiment Analysis of Influencer Apology Videos in South Korea
 
-<!-- TODO: replace "#" with the paper and slides URLs once public -->
-[![Paper](https://img.shields.io/badge/Paper-FMLDS%202026-b31b1b)](#)
-[![Slides](https://img.shields.io/badge/Slides-PDF-blue)](#)
+![FMLDS 2026](https://img.shields.io/badge/FMLDS-2026-b31b1b)
+![IEEE](https://img.shields.io/badge/IEEE-00629B)
 
 This repository is for a study of YouTube audience reactions to two South Korean influencer
 controversies (Bodeoum TV and Mimiminu) across pre-cancel, cancel, and post-apology windows.
@@ -14,6 +13,7 @@ Max Benedict Chavez, Hannah Lee, Edwin Sadiarin Jr., Raphael Gonda (De La Salle 
 
 ## News
 
+- [2026-XX-XX] Paper published in the FMLDS 2026 proceedings. <!-- TODO: exact date + DOI link -->
 - [2026-11-XX] Paper presented at FMLDS 2026. <!-- TODO: exact date -->
 - [2026-XX-XX] Paper accepted to FMLDS 2026. <!-- TODO: exact date -->
 
@@ -49,6 +49,10 @@ Run the full pipeline (02-preprocessing → 03-analysis → 04-evaluation):
 By default the released sentiment scores are reused. To re-run model inference (several hours
 on CPU), use `RECOMPUTE_SENTIMENT=1 ./scripts/run_pipeline.sh`. Notebooks that run one case at a
 time read it from `PERSON` (default `bodeoum_tv`), e.g. `PERSON=mimiminu uv run jupyter lab`.
+
+> [!NOTE]
+> The paper's Kruskal-Wallis H values were computed on partial sentiment files; on the full
+> data here they are 6312.98 (Bodeoum TV) and 182.97 (Mimiminu). Conclusions are unchanged.
 
 ## Datasets
 
