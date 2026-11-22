@@ -11,11 +11,14 @@ and comment-reply networks are analyzed with NetworkX.
 
 Max Benedict Chavez, Hannah Lee, Edwin Sadiarin Jr., Raphael Gonda (De La Salle University)
 
-## News
+## Publication History
 
-- [2026-XX-XX] Paper published in the FMLDS 2026 proceedings. <!-- TODO: exact date + DOI link -->
-- [2026-11-XX] Paper presented at FMLDS 2026. <!-- TODO: exact date -->
-- [2026-XX-XX] Paper accepted to FMLDS 2026. <!-- TODO: exact date -->
+| Date | Milestone |
+|---|---|
+| 2026-07-15 | Accepted to FMLDS 2026 |
+| 2026-11-21 | Presented at FMLDS 2026, University of Hyogo, Kobe, Japan |
+
+Published in the FMLDS 2026 proceedings (IEEE). <!-- TODO: add DOI link -->
 
 ## Project structure
 
