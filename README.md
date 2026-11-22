@@ -18,8 +18,6 @@ Max Benedict Chavez, Hannah Lee, Edwin Sadiarin Jr., Raphael Gonda (De La Salle 
 | 2026-07-15 | Accepted to FMLDS 2026 |
 | 2026-11-21 | Presented at FMLDS 2026, University of Hyogo, Kobe, Japan |
 
-Published in the FMLDS 2026 proceedings (IEEE). <!-- TODO: add DOI link -->
-
 ## Project structure
 
 ```text
