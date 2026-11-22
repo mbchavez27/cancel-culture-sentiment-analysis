@@ -1,85 +1,66 @@
-# cancel-culture-sentiment-analysis
+# The Dynamics of Cancel Culture: A Social Network and Sentiment Analysis of Influencer Apology Videos in South Korea
 
-Sentiment (emotion) trajectory and social network analysis of cancel culture discourse on YouTube, organized as a modular pipeline.
+<!-- TODO: replace "#" with the paper and slides URLs once public -->
+[![Paper](https://img.shields.io/badge/Paper-FMLDS%202026-b31b1b)](#)
+[![Slides](https://img.shields.io/badge/Slides-PDF-blue)](#)
 
-Current dataset focus: South Korea (KR) longitudinal cases with `pre` / `cancel` / `post` windows (e.g., `data/bodeoum_tv`, `data/mimiminu`).
+This repository is for a study of YouTube audience reactions to two South Korean influencer
+controversies (Bodeoum TV and Mimiminu) across pre-cancel, cancel, and post-apology windows.
+Comment sentiment is scored with a Korean ELECTRA model
+([`Copycats/koelectra-base-v3-generalized-sentiment-analysis`](https://huggingface.co/Copycats/koelectra-base-v3-generalized-sentiment-analysis)),
+and comment-reply networks are analyzed with NetworkX.
 
-## Pipeline modules
+Max Benedict Chavez, Hannah Lee, Edwin Sadiarin Jr., Raphael Gonda (De La Salle University)
 
-- `01-collection`: Data collection stage (`youtube_scraper`)
-- `02-preprocessing`: Data cleaning, normalization, and feature preparation
-- `03-analysis`: Sentiment, network, and modeling workflows
-- `04-evaluation`: Validation, benchmarking, and quality checks
+## News
 
-Each module is intentionally isolated so dependencies stay local to that stage.
+- [2026-11-XX] Paper presented at FMLDS 2026. <!-- TODO: exact date -->
+- [2026-XX-XX] Paper accepted to FMLDS 2026. <!-- TODO: exact date -->
 
-## uv setup (per module)
-
-This repository uses **one uv environment per module**. This avoids downloading and installing dependencies for stages you are not using.
-
-### Why per-module uv
-
-- Faster setup when working on a single stage
-- Smaller environments with fewer dependency conflicts
-- Better reproducibility through module-level `uv.lock` files
-
-### Standard workflow for any module
-
-Replace `<module-dir>` with one of:
-
-- `01-collection/youtube_scraper`
-- `02-preprocessing`
-- `03-analysis`
-- `04-evaluation`
-
-```bash
-uv venv <module-dir>/.venv
-uv sync --directory <module-dir>
-uv run --directory <module-dir> python -V
-```
-
-### Stage-specific notes
-
-- `01-collection/youtube_scraper`: runs from a manual CSV list of videos (pre/cancel/post).
-- `02-preprocessing`: scaffolded with an empty dependency list; add packages to `02-preprocessing/pyproject.toml` as needed.
-- `03-analysis`: scaffolded with an empty dependency list; add analysis/modeling dependencies in `03-analysis/pyproject.toml`.
-- `04-evaluation`: scaffolded with an empty dependency list; add metrics/reporting dependencies in `04-evaluation/pyproject.toml`.
-
-Process overview:
-
-- YouTube process: manual CSV -> per-video metadata/comments -> JSONL.
-- All collectors emit compatible record types (`video`, `comment`) with shared fields (`run_id`, `scraped_at`, `source_account`).
-
-Planned/optional additions:
-
-- Transcripts: download YouTube auto-captions (or temporary audio) and generate text transcripts (e.g., Whisper). Store only transcript text outputs in-repo; keep raw audio/video out of git.
-
-### YouTube CSV example
-
-Create a CSV like `data/input/mimiminu.csv` (or `data/input/bodeoum_tv.csv`):
+## Project structure
 
 ```text
-window,video
-pre,https://www.youtube.com/watch?v=J6Kp5l2xF5E
-pre,5LmBWb8zWfI
-cancel,https://www.youtube.com/watch?v=6UeLUY3h3s0
-post,8T7J6f0WzH8
-post,https://www.youtube.com/watch?v=4tBnF46ybZk
+├── 01-collection          # YouTube scraper + Whisper transcriber (own uv environments)
+├── 02-preprocessing       # Raw JSON -> comments, reply edges, transcripts
+├── 03-analysis            # Network analysis, sentiment analysis, robustness check
+├── 04-evaluation          # Pearson correlation, Kruskal-Wallis / Dunn tests
+├── data                   # Pseudonymized raw data
+│   ├── bodeoum_tv
+│   ├── mimiminu
+│   └── input              # Video lists with window labels
+└── scripts                # run_pipeline.sh, pseudonymize.py
 ```
 
-Run:
+## Setting up
+
+This project uses [uv](https://docs.astral.sh/uv/) to manage packages.
+
+1. Run `uv sync` to create the environment (Python 3.14, versions pinned in `uv.lock`).
+2. Run `uv run jupyter lab` to open the notebooks.
+
+## Reproduction
+
+Run the full pipeline (02-preprocessing → 03-analysis → 04-evaluation):
 
 ```bash
-uv run --directory 01-collection/youtube_scraper python -m youtube_scraper.cli \
-  --manual-csv data/input/gdragon.csv
+./scripts/run_pipeline.sh
 ```
 
-Outputs:
+By default the released sentiment scores are reused. To re-run model inference (several hours
+on CPU), use `RECOMPUTE_SENTIMENT=1 ./scripts/run_pipeline.sh`. Notebooks that run one case at a
+time read it from `PERSON` (default `bodeoum_tv`), e.g. `PERSON=mimiminu uv run jupyter lab`.
 
-- `data/gdragon/gdragon_youtube.jsonl`
-- `data/gdragon/comments/`
+## Datasets
 
-Existing examples in this repo:
+All datasets are in the `data/` directory, and outputs from each stage are in that stage's
+`outputs/` folder. Commenter channel IDs, comment IDs, handles, and `@mentions` were
+pseudonymized with `scripts/pseudonymize.py`. The data is for research use only. If you appear
+in the data and want a comment removed, please open an issue.
 
-- `data/bodeoum_tv/` (metadata JSONL + per-video comment `.info.json` files)
-- `data/mimiminu/` (metadata JSONL + per-video comment `.info.json` files)
+## Citation
+
+See [`CITATION.cff`](CITATION.cff), or use "Cite this repository" on GitHub.
+
+## License
+
+[MIT](LICENSE)

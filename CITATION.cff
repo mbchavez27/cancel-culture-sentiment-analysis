@@ -1,0 +1,36 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite the paper below."
+title: "The Dynamics of Cancel Culture: A Social Network and Sentiment Analysis of Influencer Apology Videos in South Korea"
+type: software
+license: MIT
+authors:
+  - family-names: Chavez
+    given-names: Max Benedict
+    affiliation: De La Salle University
+  - family-names: Lee
+    given-names: Hannah
+    affiliation: De La Salle University
+  - family-names: Sadiarin
+    given-names: Edwin
+    name-suffix: Jr.
+    affiliation: De La Salle University
+  - family-names: Gonda
+    given-names: Raphael
+    affiliation: De La Salle University
+preferred-citation:
+  type: conference-paper
+  title: "The Dynamics of Cancel Culture: A Social Network and Sentiment Analysis of Influencer Apology Videos in South Korea"
+  authors:
+    - family-names: Chavez
+      given-names: Max Benedict
+    - family-names: Lee
+      given-names: Hannah
+    - family-names: Sadiarin
+      given-names: Edwin
+      name-suffix: Jr.
+    - family-names: Gonda
+      given-names: Raphael
+  # TODO: replace with the full proceedings title, pages and DOI once published
+  conference:
+    name: "FMLDS 2026"
+  year: 2026

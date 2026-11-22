@@ -35,29 +35,12 @@ This notebook loads raw inputs from `data/`, builds the output tables, and saves
 
 ## Environment
 
-This project uses a central venv at the repository root.
-
-### First-time setup
+All of stages 02–04 share one uv environment at the repository root:
 
 ```bash
-# Create venv and install dependencies
-uv venv
-uv sync
-
-# Register Jupyter kernel
-.venv/bin/python -m ipykernel install --user --name="cancel-culture" --display-name="Cancel Culture"
+uv sync                      # from the repository root
+uv run jupyter lab           # then open the notebooks in this folder
 ```
 
-### Running notebooks
-
-```bash
-jupyter notebook
-```
-
-Select "Cancel Culture" kernel in Jupyter.
-
-### CLI usage
-
-```bash
-uv run python -m preprocessing
-```
+Per-case notebooks read the case from the `PERSON` environment variable (`bodeoum_tv` by
+default). To run the whole pipeline, use `./scripts/run_pipeline.sh` from the repository root.

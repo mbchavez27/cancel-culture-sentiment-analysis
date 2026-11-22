@@ -2,25 +2,20 @@
 
 This module contains validation, benchmarking, and result quality checks.
 
+## Notebooks
+
+- `04-evaluation/notebooks/05_pearson_correlation.ipynb` - Correlation between sentiment and network metrics
+- `04-evaluation/notebooks/06_kruskal_wallis_anova.ipynb` - Shapiro-Wilk, Kruskal-Wallis H and Dunn post-hoc tests
+  across windows (reads `03-analysis/outputs/<case>/sentiment_comments.csv`)
+
 ## Environment
 
-This project uses a central venv at the repository root.
-
-### First-time setup
+All of stages 02–04 share one uv environment at the repository root:
 
 ```bash
-# Create venv and install dependencies
-uv venv
-uv sync
-
-# Register Jupyter kernel
-.venv/bin/python -m ipykernel install --user --name="cancel-culture" --display-name="Cancel Culture"
+uv sync                      # from the repository root
+uv run jupyter lab           # then open the notebooks in this folder
 ```
 
-### Running notebooks
-
-```bash
-jupyter notebook
-```
-
-Select "Cancel Culture" kernel in Jupyter.
+Per-case notebooks read the case from the `PERSON` environment variable (`bodeoum_tv` by
+default). To run the whole pipeline, use `./scripts/run_pipeline.sh` from the repository root.
