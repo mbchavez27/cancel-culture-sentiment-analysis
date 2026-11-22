@@ -195,6 +195,18 @@ cython_debug/
 data/*/.tmp_audio/
 data/*/.tmp_audio/**
 
+# Intermediate inference checkpoints (scratch; the final scores are sentiment_comments.csv)
+03-analysis/outputs/*/sentiment_checkpoint_*.csv
+
+# Executed notebook copies from scripts/run_pipeline.sh
+build/
+
+# Per-stage virtual environments from the old layout (one root env is used now)
+*/.venv/
+
+# macOS
+.DS_Store
+
 # PyPI configuration file
 .pypirc
 

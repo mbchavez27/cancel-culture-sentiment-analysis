@@ -1,30 +1,31 @@
 [project]
 name = "cancel-culture-sentiment-analysis"
-version = "0.1.0"
-description = "Cancel culture sentiment analysis pipeline"
-requires-python = ">=3.10"
+version = "1.0.0"
+description = "Social network and sentiment analysis of YouTube audience responses to South Korean influencer apology videos"
+readme = "README.md"
+license = "MIT"
+# Results in the paper were produced with Python 3.14.3 (see .python-version); 3.12+ resolves
+# to the same locked dependency versions.
+requires-python = ">=3.12"
 dependencies = [
-    "yt-dlp>=2024.10.7",
-    "faster-whisper>=1.1.0",
-    "tqdm>=4.66.0",
     "pandas>=2.2.2",
     "numpy>=1.26.4",
+    "tqdm>=4.66.0",
     "python-dateutil>=2.9.0.post0",
-    "nbconvert>=7.16.4",
-    "ipykernel>=6.29.5",
     "kss>=3.0.1",
     "networkx>=3.0",
     "matplotlib>=3.7",
     "seaborn>=0.12",
     "scipy>=1.10",
-    "transformers>=4.30",
+    "scikit-posthocs>=0.9",
     "torch>=2.0",
+    "transformers>=4.30",
+    "huggingface-hub>=0.20",
     "jupyter",
+    "ipykernel>=6.29.5",
+    "nbconvert>=7.16.4",
 ]
 
-[build-system]
-requires = ["setuptools>=61.0"]
-build-backend = "setuptools.build_meta"
-
-[tool.setuptools]
-py-modules = []
+[tool.uv]
+# Analysis environment only; not an installable package
+package = false
