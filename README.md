@@ -51,8 +51,8 @@ on CPU), use `RECOMPUTE_SENTIMENT=1 ./scripts/run_pipeline.sh`. Notebooks that r
 time read it from `PERSON` (default `bodeoum_tv`), e.g. `PERSON=mimiminu uv run jupyter lab`.
 
 > [!NOTE]
-> The paper's Kruskal-Wallis H values were computed on partial sentiment files; on the full
-> data here they are 6312.98 (Bodeoum TV) and 182.97 (Mimiminu). Conclusions are unchanged.
+> The Kruskal-Wallis H values have been updated since publication: 6312.98 (Bodeoum TV) and
+> 182.97 (Mimiminu) on the full released data. Conclusions are unchanged.
 
 ## Datasets
 
