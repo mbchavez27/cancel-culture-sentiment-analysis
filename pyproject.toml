@@ -26,6 +26,10 @@ dependencies = [
     "nbconvert>=7.16.4",
 ]
 
+[project.urls]
+Homepage = "https://dynamics-cc.vercel.app/"
+Repository = "https://github.com/mbchavez27/cancel-culture-sentiment-analysis"
+
 [tool.uv]
 # Analysis environment only; not an installable package
 package = false

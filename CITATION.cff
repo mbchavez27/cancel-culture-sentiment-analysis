@@ -3,6 +3,8 @@ message: "If you use this code or data, please cite the paper below."
 title: "The Dynamics of Cancel Culture: A Social Network and Sentiment Analysis of Influencer Apology Videos in South Korea"
 type: software
 license: MIT
+url: "https://dynamics-cc.vercel.app/"
+repository-code: "https://github.com/mbchavez27/cancel-culture-sentiment-analysis"
 authors:
   - family-names: Chavez
     given-names: Max Benedict
