@@ -1,0 +1,2206 @@
+{
+  "meta": {
+    "title": "The Dynamics of Cancel Culture",
+    "subtitle": "A Social Network and Sentiment Analysis of Influencer Apology Videos in South Korea",
+    "venue": "FMLDS 2026",
+    "authors": [
+      "Max Benedict Chavez",
+      "Hannah Lee",
+      "Edwin Sadiarin Jr.",
+      "Raphael Gonda"
+    ],
+    "affiliation": "De La Salle University, Manila",
+    "raw": 146223,
+    "empty": 58,
+    "duplicates": 885,
+    "analyzed": 145280,
+    "cases": 2,
+    "slots": 42,
+    "scrape": "April 2026",
+    "paper": "docs/fmlds26_networksentiment_cancelculture.pdf",
+    "slides": "docs/FMLDS-2026-cancel-culture-slides.pdf",
+    "repo": "https://github.com/mbchavez27/cancel-culture-sentiment-analysis"
+  },
+  "cases": {
+    "bodeoum_tv": {
+      "name": "Bodeoum TV",
+      "person": "Kang Hyung-wook",
+      "handle": "@Bodeumofficial",
+      "role": "Dog trainer · TV personality",
+      "short": "Bodeoum",
+      "accent": "oxide",
+      "trigger": "Covert workplace surveillance allegations",
+      "triggerDetail": "Former employees alleged covert monitoring of staff. Kang issued a 55-minute procedural apology and was later cleared of criminal intent.",
+      "outcome": "Prosecutors later cleared him of criminal intent. The study's post-apology window begins on July 6, 2024.",
+      "apologyTitleEn": "I'm sorry it took so long.",
+      "opening": "A workplace-surveillance scandal",
+      "raw": 129429,
+      "empty": 55,
+      "duplicates": 842,
+      "labelCounts": {
+        "POSITIVE": 65506,
+        "NEGATIVE": 46404,
+        "NEUTRAL": 16622
+      },
+      "replyLinks": {
+        "pre": 6141,
+        "cancel": 34959,
+        "post": 1640
+      },
+      "threadRoot": "Ugwo3w6aE2-s1kqFXHN4AaABAg",
+      "transcriptTranslation": "Hello. I'm trainer Kang Hyung-wook. Before asking whether the allegations are true, I'm truly sorry for making noise with this news and for bringing you such bad news. I'm someone who should be talking about how to live better with dogs, but I'm sorry for showing you a bad side through actions that fell short.",
+      "transcriptNote": "The local Whisper transcript mishears “강형욱” as “강영웅” in its first line. Transcripts were collected but not analyzed in the paper.",
+      "id": "bodeoum_tv",
+      "nonEmpty": 129374,
+      "analyzed": 128532,
+      "windows": {
+        "pre": {
+          "mean": 0.8131724,
+          "n": 19606,
+          "pos": 51.550545751300625,
+          "neg": 34.91788228093441,
+          "neu": 13.531571967764968,
+          "slotMean": 0.84994364,
+          "start": "2024-04-06",
+          "end": "2024-05-18",
+          "days": 42,
+          "videos": 10,
+          "replyLinks": 6141
+        },
+        "cancel": {
+          "mean": 0.80529433,
+          "n": 94521,
+          "pos": 45.47031876514214,
+          "neg": 40.575110292950775,
+          "neu": 13.954570941907091,
+          "slotMean": 0.80529433,
+          "start": "2024-05-24",
+          "end": "2024-05-24",
+          "days": 0,
+          "videos": 1,
+          "replyLinks": 34959
+        },
+        "post": {
+          "mean": 0.9000588,
+          "n": 14405,
+          "pos": 86.22006247830615,
+          "neg": 8.372093023255815,
+          "neu": 5.407844498438042,
+          "slotMean": 0.8924616,
+          "start": "2024-07-06",
+          "end": "2024-08-31",
+          "days": 56,
+          "videos": 10,
+          "replyLinks": 1640
+        }
+      },
+      "slots": [
+        {
+          "slot": "pre-10",
+          "window": "pre",
+          "number": 10,
+          "videoId": "8owAHlSFqvA",
+          "title": "강형욱도 키우기 힘들다는 견종(일반인 키우기 금지) | 견종백과 말리노이즈편",
+          "titleEn": "The breed even Kang Hyung-wook finds hard to raise (not for beginners) · Malinois",
+          "date": "2024-04-06",
+          "views": 3029807,
+          "likes": 34918,
+          "sentiment": 0.8518427,
+          "n": 1456,
+          "pos": 76.03021978021978,
+          "neg": 14.697802197802199,
+          "neu": 9.271978021978022,
+          "network": {
+            "nodes": 262,
+            "edges": 250,
+            "density": 0.003655932847825451,
+            "modularity": 0.8653331350386675,
+            "communities": 38,
+            "cascade": 5,
+            "inDegreeMean": 0.9541984732824428,
+            "degreeGini": 0.8667175572519084,
+            "hubDominance": 46.111999999999995,
+            "degreeVariance": 14.036070159081635,
+            "components": 30
+          }
+        },
+        {
+          "slot": "pre-9",
+          "window": "pre",
+          "number": 9,
+          "videoId": "Onyn-Y3Ku7I",
+          "title": "귀여움이 두 배인 시바이누 두 마리 교육하기 [퍼피교육]",
+          "titleEn": "Training two Shiba Inus with double the cuteness · Puppy Training",
+          "date": "2024-04-09",
+          "views": 676012,
+          "likes": 11456,
+          "sentiment": 0.8312983,
+          "n": 465,
+          "pos": 68.60215053763442,
+          "neg": 20.86021505376344,
+          "neu": 10.53763440860215,
+          "network": {
+            "nodes": 141,
+            "edges": 140,
+            "density": 0.0070921985815602835,
+            "modularity": 0.7502717250659904,
+            "communities": 16,
+            "cascade": 5,
+            "inDegreeMean": 0.9929078014184397,
+            "degreeGini": 0.896048632218845,
+            "hubDominance": 52.371428571428574,
+            "degreeVariance": 21.921935516322108,
+            "components": 10
+          }
+        },
+        {
+          "slot": "pre-8",
+          "window": "pre",
+          "number": 8,
+          "videoId": "rm3EodlSdHw",
+          "title": "연예인 대표 자매 트와이스 정연&공승연. 애들 자랑하러 와서 싸우다 가네요...[강형욱의개스트쇼] EP.27",
+          "titleEn": "Celebrity sisters TWICE’s Jeongyeon and Gong Seung-yeon come to brag about their dogs · Guest Show EP.27",
+          "date": "2024-04-13",
+          "views": 1021936,
+          "likes": 25960,
+          "sentiment": 0.87842846,
+          "n": 716,
+          "pos": 89.94413407821229,
+          "neg": 5.167597765363128,
+          "neu": 4.888268156424581,
+          "network": {
+            "nodes": 60,
+            "edges": 50,
+            "density": 0.014124293785310734,
+            "modularity": 0.8069554352353185,
+            "communities": 15,
+            "cascade": 3,
+            "inDegreeMean": 0.8333333333333334,
+            "degreeGini": 0.8033333333333335,
+            "hubDominance": 19.2,
+            "degreeVariance": 4.872222222222224,
+            "components": 14
+          }
+        },
+        {
+          "slot": "pre-7",
+          "window": "pre",
+          "number": 7,
+          "videoId": "x7EmWZsKGVg",
+          "title": "귀여워서 쌍코피 터집니다 (*편집자 3번 터짐) | 견종백과 버니즈 마운틴 독편",
+          "titleEn": "So cute it gives you a nosebleed (the editor’s third) · Bernese Mountain Dog",
+          "date": "2024-04-20",
+          "views": 1479828,
+          "likes": 19937,
+          "sentiment": 0.8710308,
+          "n": 909,
+          "pos": 75.46754675467547,
+          "neg": 15.51155115511551,
+          "neu": 9.02090209020902,
+          "network": {
+            "nodes": 186,
+            "edges": 176,
+            "density": 0.005114792211566405,
+            "modularity": 0.8932299147754477,
+            "communities": 32,
+            "cascade": 6,
+            "inDegreeMean": 0.946236559139785,
+            "degreeGini": 0.7925830889540566,
+            "hubDominance": 16.909090909090907,
+            "degreeVariance": 4.448722395652678,
+            "components": 27
+          }
+        },
+        {
+          "slot": "pre-6",
+          "window": "pre",
+          "number": 6,
+          "videoId": "hzcD1T_-XK4",
+          "title": "이 강아지는 이제 제 겁니다. 강형욱이 반한 예쁜 강아지 [퍼피교육]",
+          "titleEn": "This puppy is mine now: the pretty puppy Kang Hyung-wook fell for · Puppy Training",
+          "date": "2024-04-23",
+          "views": 3245067,
+          "likes": 43166,
+          "sentiment": 0.86324704,
+          "n": 1796,
+          "pos": 78.61915367483296,
+          "neg": 12.026726057906458,
+          "neu": 9.35412026726058,
+          "network": {
+            "nodes": 234,
+            "edges": 215,
+            "density": 0.003943362312461025,
+            "modularity": 0.8773391522845996,
+            "communities": 40,
+            "cascade": 5,
+            "inDegreeMean": 0.9188034188034188,
+            "degreeGini": 0.8401709401709403,
+            "hubDominance": 23.94418604651163,
+            "degreeVariance": 6.954945576740447,
+            "components": 35
+          }
+        },
+        {
+          "slot": "pre-5",
+          "window": "pre",
+          "number": 5,
+          "videoId": "A1L9uEZ0xNE",
+          "title": "엄정화님, 도대체 어떻게 키우신 건가요. 강형욱이 사랑에 빠진 진돗개 등장[강형욱의개스트쇼]EP.28",
+          "titleEn": "Uhm Jung-hwa, how did you raise them? Kang Hyung-wook falls for a Jindo · Guest Show EP.28",
+          "date": "2024-04-27",
+          "views": 2126742,
+          "likes": 37492,
+          "sentiment": 0.8911443,
+          "n": 1922,
+          "pos": 81.00936524453695,
+          "neg": 12.79916753381894,
+          "neu": 6.191467221644121,
+          "network": {
+            "nodes": 427,
+            "edges": 412,
+            "density": 0.0022649558553506834,
+            "modularity": 0.8954693001596117,
+            "communities": 61,
+            "cascade": 5,
+            "inDegreeMean": 0.9648711943793911,
+            "degreeGini": 0.8657033719105978,
+            "hubDominance": 78.76699029126213,
+            "degreeVariance": 20.141623109872818,
+            "components": 53
+          }
+        },
+        {
+          "slot": "pre-4",
+          "window": "pre",
+          "number": 4,
+          "videoId": "L5yvqZfpR64",
+          "title": "강형욱에게 트라우마가 된 견종 | 견종백과 와이어 폭스테리어편",
+          "titleEn": "The breed that traumatized Kang Hyung-wook · Wire Fox Terrier",
+          "date": "2024-05-04",
+          "views": 428831,
+          "likes": 6947,
+          "sentiment": 0.8571,
+          "n": 258,
+          "pos": 75.96899224806202,
+          "neg": 16.666666666666664,
+          "neu": 7.3643410852713185,
+          "network": {
+            "nodes": 66,
+            "edges": 59,
+            "density": 0.013752913752913752,
+            "modularity": 0.850723299476762,
+            "communities": 17,
+            "cascade": 4,
+            "inDegreeMean": 0.8939393939393939,
+            "degreeGini": 0.7696456086286594,
+            "hubDominance": 8.949152542372882,
+            "degreeVariance": 2.731175390266299,
+            "components": 14
+          }
+        },
+        {
+          "slot": "pre-3",
+          "window": "pre",
+          "number": 3,
+          "videoId": "iRo0SSChhwk",
+          "title": "유기견 출신 친구가 산책하는 법 [집에가자] EP.7",
+          "titleEn": "How a rescue dog learns to go for a walk · Let’s Go Home EP.7",
+          "date": "2024-05-07",
+          "views": 122687,
+          "likes": 3263,
+          "sentiment": 0.86098814,
+          "n": 149,
+          "pos": 71.81208053691275,
+          "neg": 18.79194630872483,
+          "neu": 9.395973154362416,
+          "network": {
+            "nodes": 28,
+            "edges": 28,
+            "density": 0.037037037037037035,
+            "modularity": 0.6714677640603566,
+            "communities": 5,
+            "cascade": 3,
+            "inDegreeMean": 1.0,
+            "degreeGini": 0.760204081632653,
+            "hubDominance": 8.0,
+            "degreeVariance": 3.4285714285714284,
+            "components": 3
+          }
+        },
+        {
+          "slot": "pre-2",
+          "window": "pre",
+          "number": 2,
+          "videoId": "FCrjawLVIWo",
+          "title": "메롱하면 혓바닥이 보라색인 강아지ㅣ견종백과 차우차우 편",
+          "titleEn": "The dog whose tongue turns purple when it bleats · Chow Chow",
+          "date": "2024-05-11",
+          "views": 672851,
+          "likes": 8603,
+          "sentiment": 0.81884444,
+          "n": 627,
+          "pos": 57.73524720893142,
+          "neg": 30.62200956937799,
+          "neu": 11.64274322169059,
+          "network": {
+            "nodes": 159,
+            "edges": 174,
+            "density": 0.006926200143300693,
+            "modularity": 0.8423664974943343,
+            "communities": 25,
+            "cascade": 7,
+            "inDegreeMean": 1.0943396226415094,
+            "degreeGini": 0.6793175739174437,
+            "hubDominance": 8.224137931034482,
+            "degreeVariance": 2.638898777738222,
+            "components": 19
+          }
+        },
+        {
+          "slot": "pre-1",
+          "window": "pre",
+          "number": 1,
+          "videoId": "eBP5Ds6o2Aw",
+          "title": "대형견 앞에서 얼어버린 소형견...(대형견=강형욱) [퍼피교육]",
+          "titleEn": "A small dog freezes in front of a big dog... (the big dog is Kang Hyung-wook) · Puppy Training",
+          "date": "2024-05-18",
+          "views": 1058798,
+          "likes": 6511,
+          "sentiment": 0.7755124,
+          "n": 11308,
+          "pos": 32.870534135125574,
+          "neg": 49.80544747081712,
+          "neu": 17.324018394057305,
+          "network": {
+            "nodes": 2320,
+            "edges": 3530,
+            "density": 0.0006561240725044981,
+            "modularity": 0.7601180586242832,
+            "communities": 216,
+            "cascade": 17,
+            "inDegreeMean": 1.521551724137931,
+            "degreeGini": 0.7232675588551332,
+            "hubDominance": 83.46742209631728,
+            "degreeVariance": 18.732294143876334,
+            "components": 188
+          }
+        },
+        {
+          "slot": "cancel-1",
+          "window": "cancel",
+          "number": 1,
+          "videoId": "e5N9eXLcfag",
+          "title": "늦어져서 죄송합니다.",
+          "titleEn": "I’m sorry it took so long.",
+          "date": "2024-05-24",
+          "views": 6892536,
+          "likes": 196745,
+          "sentiment": 0.80529433,
+          "n": 94521,
+          "pos": 45.47031876514214,
+          "neg": 40.575110292950775,
+          "neu": 13.954570941907091,
+          "network": {
+            "nodes": 18586,
+            "edges": 30052,
+            "density": 8.700112769696765e-05,
+            "modularity": 0.7687148289414162,
+            "communities": 969,
+            "cascade": 24,
+            "inDegreeMean": 1.6169159582481438,
+            "degreeGini": 0.7650497128195985,
+            "hubDominance": 307.9937441767603,
+            "degreeVariance": 85.70431731533017,
+            "components": 915
+          }
+        },
+        {
+          "slot": "post-1",
+          "window": "post",
+          "number": 1,
+          "videoId": "Pxlq4KoYEkI",
+          "title": "오랜만에 만난 세상 해맑은 강아지 [퍼피교육]",
+          "titleEn": "A bright-eyed dog I haven’t seen in a while · Puppy Training",
+          "date": "2024-07-06",
+          "views": 719367,
+          "likes": 40192,
+          "sentiment": 0.92490697,
+          "n": 5880,
+          "pos": 92.17687074829932,
+          "neg": 4.880952380952381,
+          "neu": 2.942176870748299,
+          "network": {
+            "nodes": 361,
+            "edges": 383,
+            "density": 0.0029470606340412436,
+            "modularity": 0.8402928133332405,
+            "communities": 43,
+            "cascade": 10,
+            "inDegreeMean": 1.0609418282548477,
+            "degreeGini": 0.8385612926090134,
+            "hubDominance": 85.7728459530026,
+            "degreeVariance": 28.58908387750247,
+            "components": 32
+          }
+        },
+        {
+          "slot": "post-2",
+          "window": "post",
+          "number": 2,
+          "videoId": "eJvcoohXDuY",
+          "title": "\"악마야 물러가라\" 조기교육 필수인 도베르만 | 견종백과 도베르만 핀셔편",
+          "titleEn": "“Shoo, devil” — the Doberman that needs early training · Doberman Pinscher",
+          "date": "2024-07-13",
+          "views": 2277539,
+          "likes": 44084,
+          "sentiment": 0.8731606,
+          "n": 3261,
+          "pos": 80.22079116835327,
+          "neg": 11.86752529898804,
+          "neu": 7.911683532658693,
+          "network": {
+            "nodes": 378,
+            "edges": 382,
+            "density": 0.002680588887485439,
+            "modularity": 0.8637178179279981,
+            "communities": 44,
+            "cascade": 5,
+            "inDegreeMean": 1.0105820105820107,
+            "degreeGini": 0.8930579794454141,
+            "hubDominance": 68.27748691099475,
+            "degreeVariance": 27.04750706867109,
+            "components": 36
+          }
+        },
+        {
+          "slot": "post-3",
+          "window": "post",
+          "number": 3,
+          "videoId": "9708Qoe83VI",
+          "title": "꽃미모 자랑하는 해온이 [집에가자] EP.8",
+          "titleEn": "Hae-on showing off her flower-like beauty · Let’s Go Home EP.8",
+          "date": "2024-07-20",
+          "views": 176422,
+          "likes": 9717,
+          "sentiment": 0.91532856,
+          "n": 725,
+          "pos": 91.44827586206897,
+          "neg": 4.551724137931035,
+          "neu": 4.0,
+          "network": {
+            "nodes": 37,
+            "edges": 32,
+            "density": 0.024024024024024024,
+            "modularity": 0.7976066597294484,
+            "communities": 10,
+            "cascade": 4,
+            "inDegreeMean": 0.8648648648648649,
+            "degreeGini": 0.7111486486486487,
+            "hubDominance": 6.9375,
+            "degreeVariance": 1.79254930606282,
+            "components": 9
+          }
+        },
+        {
+          "slot": "post-4",
+          "window": "post",
+          "number": 4,
+          "videoId": "6vvszdv5pDY",
+          "title": "스피츠가 예민보스인 이유 | 견종백과 스피츠편",
+          "titleEn": "Why Spitzes are such sensitive bosses · Spitz",
+          "date": "2024-07-27",
+          "views": 945790,
+          "likes": 20819,
+          "sentiment": 0.89119977,
+          "n": 1617,
+          "pos": 83.98268398268398,
+          "neg": 9.400123685837972,
+          "neu": 6.617192331478046,
+          "network": {
+            "nodes": 213,
+            "edges": 212,
+            "density": 0.004694835680751174,
+            "modularity": 0.879591368227732,
+            "communities": 44,
+            "cascade": 7,
+            "inDegreeMean": 0.9953051643192489,
+            "degreeGini": 0.7700859243511382,
+            "hubDominance": 26.12264150943396,
+            "degreeVariance": 7.291057770724506,
+            "components": 37
+          }
+        },
+        {
+          "slot": "post-5",
+          "window": "post",
+          "number": 5,
+          "videoId": "-GEAyCIgmI8",
+          "title": "뚱땅거리며 걷는 햅-삐 햅삐독 교육하기 [퍼피교육]",
+          "titleEn": "Training a happy-go-lucky dog that walks with a bounce · Puppy Training",
+          "date": "2024-08-03",
+          "views": 281697,
+          "likes": 8461,
+          "sentiment": 0.8970695,
+          "n": 420,
+          "pos": 83.57142857142857,
+          "neg": 9.761904761904763,
+          "neu": 6.666666666666667,
+          "network": {
+            "nodes": 59,
+            "edges": 50,
+            "density": 0.014611338398597311,
+            "modularity": 0.6818,
+            "communities": 13,
+            "cascade": 4,
+            "inDegreeMean": 0.847457627118644,
+            "degreeGini": 0.8345762711864406,
+            "hubDominance": 29.5,
+            "degreeVariance": 10.536052858374033,
+            "components": 11
+          }
+        },
+        {
+          "slot": "post-6",
+          "window": "post",
+          "number": 6,
+          "videoId": "_5OEV4P1_HU",
+          "title": "영상 내내 공만 찾음 | 견종백과 베들링턴테리어편",
+          "titleEn": "Looking for the ball the entire video · Bedlington Terrier",
+          "date": "2024-08-10",
+          "views": 985613,
+          "likes": 16050,
+          "sentiment": 0.8453528,
+          "n": 799,
+          "pos": 75.21902377972467,
+          "neg": 14.392991239048811,
+          "neu": 10.387984981226534,
+          "network": {
+            "nodes": 148,
+            "edges": 145,
+            "density": 0.006664828093399522,
+            "modularity": 0.810344827586207,
+            "communities": 21,
+            "cascade": 4,
+            "inDegreeMean": 0.9797297297297297,
+            "degreeGini": 0.8956663560111835,
+            "hubDominance": 27.55862068965517,
+            "degreeVariance": 12.898237764791821,
+            "components": 16
+          }
+        },
+        {
+          "slot": "post-7",
+          "window": "post",
+          "number": 7,
+          "videoId": "8pZyhPDnh30",
+          "title": "왕년에 장난 아니었을 10살 호동이 [집에 가자] EP.9",
+          "titleEn": "10-year-old Hodong, who was quite a handful back in the day · Let’s Go Home EP.9",
+          "date": "2024-08-13",
+          "views": 108057,
+          "likes": 4175,
+          "sentiment": 0.89361244,
+          "n": 204,
+          "pos": 82.35294117647058,
+          "neg": 11.27450980392157,
+          "neu": 6.372549019607843,
+          "network": {
+            "nodes": 42,
+            "edges": 33,
+            "density": 0.01916376306620209,
+            "modularity": 0.8282828282828283,
+            "communities": 10,
+            "cascade": 2,
+            "inDegreeMean": 0.7857142857142857,
+            "degreeGini": 0.7900432900432901,
+            "hubDominance": 10.181818181818182,
+            "degreeVariance": 2.5969387755102042,
+            "components": 10
+          }
+        },
+        {
+          "slot": "post-8",
+          "window": "post",
+          "number": 8,
+          "videoId": "Cj1Iin-UKzk",
+          "title": "너 입에 초코 묻었어. 귀여운 초코에게 감겨버렸다. [퍼피교육]",
+          "titleEn": "You’ve got chocolate on your mouth. I fell for the cute Choco. · Puppy Training",
+          "date": "2024-08-17",
+          "views": 183080,
+          "likes": 6846,
+          "sentiment": 0.9097535,
+          "n": 390,
+          "pos": 89.48717948717949,
+          "neg": 6.666666666666667,
+          "neu": 3.8461538461538463,
+          "network": {
+            "nodes": 44,
+            "edges": 33,
+            "density": 0.01744186046511628,
+            "modularity": 0.86279296875,
+            "communities": 14,
+            "cascade": 3,
+            "inDegreeMean": 0.75,
+            "degreeGini": 0.665977961432507,
+            "hubDominance": 9.333333333333334,
+            "degreeVariance": 1.4602272727272727,
+            "components": 13
+          }
+        },
+        {
+          "slot": "post-9",
+          "window": "post",
+          "number": 9,
+          "videoId": "gLcYWT4Z0gI",
+          "title": "누구나 마트에서 한 번쯤 봤을 '그 강아지' | 견종백과 웨스트 하이랜드 화이트 테리어편",
+          "titleEn": "The “that dog” everyone has seen at least once at the mart · West Highland White Terrier",
+          "date": "2024-08-24",
+          "views": 801206,
+          "likes": 13709,
+          "sentiment": 0.8923267,
+          "n": 719,
+          "pos": 81.78025034770513,
+          "neg": 11.821974965229485,
+          "neu": 6.397774687065369,
+          "network": {
+            "nodes": 156,
+            "edges": 149,
+            "density": 0.006162117452440033,
+            "modularity": 0.7295617314535382,
+            "communities": 30,
+            "cascade": 4,
+            "inDegreeMean": 0.9551282051282052,
+            "degreeGini": 0.8570383754947513,
+            "hubDominance": 59.677852348993284,
+            "degreeVariance": 21.722345496383962,
+            "components": 22
+          }
+        },
+        {
+          "slot": "post-10",
+          "window": "post",
+          "number": 10,
+          "videoId": "o1x2iYtRzWI",
+          "title": "\"비닐봉지가 무서워요\" 겁이 많은 강아지 교육하기 [퍼피교육]",
+          "titleEn": "“I’m scared of plastic bags” — training a fearful puppy · Puppy Training",
+          "date": "2024-08-31",
+          "views": 226567,
+          "likes": 6886,
+          "sentiment": 0.881906,
+          "n": 390,
+          "pos": 78.46153846153847,
+          "neg": 14.615384615384617,
+          "neu": 6.923076923076923,
+          "network": {
+            "nodes": 53,
+            "edges": 47,
+            "density": 0.017053701015965168,
+            "modularity": 0.8636621315192743,
+            "communities": 13,
+            "cascade": 4,
+            "inDegreeMean": 0.8867924528301887,
+            "degreeGini": 0.7691690084303493,
+            "hubDominance": 6.76595744680851,
+            "degreeVariance": 2.4022783908864365,
+            "components": 12
+          }
+        }
+      ],
+      "recovery": {
+        "slotMean": {
+          "pre": 0.84994364,
+          "cancel": 0.80529433,
+          "post": 0.8924616
+        },
+        "nadirSlot": "pre-1",
+        "nadirValue": 0.7755124,
+        "recoverySlot": "post-1",
+        "pctCancelVsPre": -5.2532077,
+        "pctPostVsPre": 5.0024447
+      },
+      "network": {
+        "windows": {
+          "pre": {
+            "nodes": 3751,
+            "edges": 5034,
+            "density": 0.00035787789922687286,
+            "components": 322,
+            "inDegreeMean": 1.3420421221007732,
+            "inDegreeMax": 127,
+            "degreeGini": 0.7651266509039518,
+            "hubDominance": 94.63190305919746,
+            "communities": 357,
+            "modularity": 0.8164940198786996,
+            "cascade": 17,
+            "replyLinks": 6141
+          },
+          "cancel": {
+            "nodes": 18586,
+            "edges": 30052,
+            "density": 8.700112769696765e-05,
+            "components": 915,
+            "inDegreeMean": 1.6169159582481438,
+            "inDegreeMax": 498,
+            "degreeGini": 0.7650497128195985,
+            "hubDominance": 307.9937441767603,
+            "communities": 969,
+            "modularity": 0.7687148289414162,
+            "cascade": 24,
+            "replyLinks": 34959
+          },
+          "post": {
+            "nodes": 1403,
+            "edges": 1465,
+            "density": 0.0007447867469646763,
+            "components": 145,
+            "inDegreeMean": 1.044191019244476,
+            "inDegreeMax": 91,
+            "degreeGini": 0.8416445500743166,
+            "hubDominance": 87.14880546075085,
+            "communities": 168,
+            "modularity": 0.9195038373582692,
+            "cascade": 12,
+            "replyLinks": 1640
+          }
+        },
+        "amplification": {
+          "edges": 5.969805323798172,
+          "nodes": 4.954945347907225,
+          "density": 0.24310282329508764,
+          "gini": 0.9998994439884399
+        },
+        "thread": {
+          "rootId": "Ugwo3w6aE2-s1kqFXHN4AaABAg",
+          "nodes": [
+            {
+              "id": "Ugwo3w6aE2-s1kqFXHN4AaABAg",
+              "parentId": "root",
+              "author": "@도토리-s4u",
+              "handle": "도토리-s4u",
+              "text": "마녀사냥 그만하고\n그 직원들 얼굴  공개하고  무고죄로\n고소해라\n지들 비위상한다고\n또 누굴  죽이려하는지\n강형욱님 힘내세요",
+              "textClean": "마녀사냥 그만하고 그 직원들 얼굴 공개하고 무고죄로 고소해라 지들 비위상한다고 또 누굴 죽이려하는지 강형욱님 힘내세요",
+              "translation": "Stop the witch hunt. Make those employees show their faces and sue them for false accusation. Are they trying to destroy someone again just because they're upset? Stay strong, Kang Hyung-wook.",
+              "sentiment": "NEUTRAL",
+              "score": 0.5116926,
+              "likes": 664,
+              "depth": 0,
+              "slot": "cancel-1"
+            },
+            {
+              "id": "Ugwo3w6aE2-s1kqFXHN4AaABAg.A3pEc2Oo0hTA3pRjLAzn1R",
+              "parentId": "Ugwo3w6aE2-s1kqFXHN4AaABAg",
+              "author": "@하은김-i3w",
+              "handle": "하은김-i3w",
+              "text": "오해를 풀어야지 언론플레이를해? 얼굴 깔 자신도 없으면서 신상털자 아주 그냥 나락가야 정신차리지",
+              "textClean": "오해를 풀어야지 언론플레이를해? 얼굴 깔 자신도 없으면서 신상털자 아주 그냥 나락가야 정신차리지",
+              "translation": "You should clear up the misunderstanding—why play the media game? You don't even have the guts to show your face, so let's dig up identities; they'll only learn after hitting rock bottom.",
+              "sentiment": "NEGATIVE",
+              "score": 0.9754801,
+              "likes": 0,
+              "depth": 1,
+              "slot": "cancel-1"
+            },
+            {
+              "id": "Ugwo3w6aE2-s1kqFXHN4AaABAg.A3pEc2Oo0hTA3pFsSSE2-N",
+              "parentId": "Ugwo3w6aE2-s1kqFXHN4AaABAg",
+              "author": "@조수진-e6n",
+              "handle": "조수진-e6n",
+              "text": "무고죄는 아니지 저들내외 잘못있는것고 맞고 그직원 과민진상도 맞고 오해도 있고.",
+              "textClean": "무고죄는 아니지 저들내외 잘못있는것고 맞고 그직원 과민진상도 맞고 오해도 있고.",
+              "translation": "It isn't false accusation. The couple were partly at fault, the employee overreacted, and there are misunderstandings on both sides.",
+              "sentiment": "POSITIVE",
+              "score": 0.73765683,
+              "likes": 1,
+              "depth": 1,
+              "slot": "cancel-1"
+            },
+            {
+              "id": "Ugwo3w6aE2-s1kqFXHN4AaABAg.A3pEc2Oo0hTA3qm8HfJtB7",
+              "parentId": "Ugwo3w6aE2-s1kqFXHN4AaABAg",
+              "author": "@refrigerate_after_opening",
+              "handle": "refrigerate_after_opening",
+              "text": "무고로 고소를 못해요. 메신저 훔쳐본 건 사실이라서. 그게 거짓이었으면 무고인데 엄연한 사실이라 무고가 안 됩니다.",
+              "textClean": "무고로 고소를 못해요. 메신저 훔쳐본 건 사실이라서. 그게 거짓이었으면 무고인데 엄연한 사실이라 무고가 안 됩니다.",
+              "translation": "They can't sue for false accusation. It's true that he looked through the messenger. If that were false, it would be false accusation—but it's fact, so it isn't.",
+              "sentiment": "NEGATIVE",
+              "score": 0.75010437,
+              "likes": 1,
+              "depth": 1,
+              "slot": "cancel-1"
+            },
+            {
+              "id": "Ugwo3w6aE2-s1kqFXHN4AaABAg.A3pEc2Oo0hTA3pFVsrE_T3",
+              "parentId": "Ugwo3w6aE2-s1kqFXHN4AaABAg",
+              "author": "@어묵-j5v",
+              "handle": "어묵-j5v",
+              "text": "그래 빨리 고소하고 누가 진짠지 밝혀졌으면 좋겠다 다들 댓글법정에서 빨거나 헐뜯는 거 없이",
+              "textClean": "그래 빨리 고소하고 누가 진짠지 밝혀졌으면 좋겠다 다들 댓글법정에서 빨거나 헐뜯는 거 없이",
+              "translation": "Yes—sue quickly and let the truth come out. No more arguing or tearing people down in the comment-section court.",
+              "sentiment": "NEUTRAL",
+              "score": 0.5128266,
+              "likes": 8,
+              "depth": 1,
+              "slot": "cancel-1"
+            }
+          ],
+          "edges": [
+            {
+              "source": "Ugwo3w6aE2-s1kqFXHN4AaABAg.A3pEc2Oo0hTA3pRjLAzn1R",
+              "target": "Ugwo3w6aE2-s1kqFXHN4AaABAg",
+              "sourceAuthor": "@하은김-i3w",
+              "targetAuthor": "@도토리-s4u"
+            },
+            {
+              "source": "Ugwo3w6aE2-s1kqFXHN4AaABAg.A3pEc2Oo0hTA3pFsSSE2-N",
+              "target": "Ugwo3w6aE2-s1kqFXHN4AaABAg",
+              "sourceAuthor": "@조수진-e6n",
+              "targetAuthor": "@도토리-s4u"
+            },
+            {
+              "source": "Ugwo3w6aE2-s1kqFXHN4AaABAg.A3pEc2Oo0hTA3qm8HfJtB7",
+              "target": "Ugwo3w6aE2-s1kqFXHN4AaABAg",
+              "sourceAuthor": "@refrigerate_after_opening",
+              "targetAuthor": "@도토리-s4u"
+            },
+            {
+              "source": "Ugwo3w6aE2-s1kqFXHN4AaABAg.A3pEc2Oo0hTA3pFVsrE_T3",
+              "target": "Ugwo3w6aE2-s1kqFXHN4AaABAg",
+              "sourceAuthor": "@어묵-j5v",
+              "targetAuthor": "@도토리-s4u"
+            }
+          ],
+          "authorCount": 5,
+          "nodeCount": 5,
+          "maxDepth": 1,
+          "note": "One real thread. The graph on the right keeps only the unique authors and the reply links between them."
+        }
+      },
+      "sentimentExamples": [
+        {
+          "kind": "positive",
+          "label": "Positive · apology video",
+          "text": "힘드셨을텐데 잘하셨어요",
+          "translation": "You must have had a hard time; you did well.",
+          "note": "A short, unambiguous message of support.",
+          "score": 0.9820025,
+          "sentiment": "POSITIVE",
+          "slot": "cancel-1",
+          "likes": 2
+        },
+        {
+          "kind": "negative",
+          "label": "Negative · apology video",
+          "text": "전문경영이 안되서 생긴거같은데? 사업자로 계약한것도 고용하기 싫어서 그런거같고",
+          "translation": "Seems like this happened because there's no professional management? And I think they used contractor agreements because they didn't want to hire employees.",
+          "note": "Critical of management choices; the model reads the criticism as negative.",
+          "score": 0.99527293,
+          "sentiment": "NEGATIVE",
+          "slot": "cancel-1",
+          "likes": 2
+        },
+        {
+          "kind": "neutral",
+          "label": "Neutral · apology video",
+          "text": "이게 사실이면 진짜 악질 나르시시스트네",
+          "translation": "If this is true, he's a real malicious narcissist.",
+          "note": "The words are harsh, but the model's confidence falls inside the 0.4–0.6 band, so the final label is NEUTRAL. This is the band doing its job—and also a reminder that NEUTRAL is not a semantic third class.",
+          "score": 0.51278794,
+          "sentiment": "NEUTRAL",
+          "slot": "cancel-1",
+          "likes": 11
+        },
+        {
+          "kind": "positive",
+          "label": "Positive · after the apology",
+          "text": "다시 와주셔서 감사합니다❤🎉",
+          "translation": "Thank you for coming back ❤🎉",
+          "note": "Post-apology warmth; emoji survive cleaning.",
+          "score": 0.99231464,
+          "sentiment": "POSITIVE",
+          "slot": "post-2",
+          "likes": 90
+        }
+      ],
+      "cleaningExamples": [
+        {
+          "label": "A promo comment with a URL",
+          "slot": "pre-7",
+          "raw": "🐕 댓글 이벤트 🐕\n버니즈마운틴독 견종백과 콘텐츠를 보고 느낀 감상을 자유롭게 적어주세요.\n재미있고 유익한 댓글 달아주신 분 중 추첨을 통해 2분께 포브테일 베스트 + 도그 코트를 선물합니다! \n*포브테일 제품 정보: https://bit.ly/3vLxXxq",
+          "clean": "🐕 댓글 이벤트 🐕 버니즈마운틴독 견종백과 콘텐츠를 보고 느낀 감상을 자유롭게 적어주세요. 재미있고 유익한 댓글 달아주신 분 중 추첨을 통해 2분께 포브테일 베스트 + 도그 코트를 선물합니다! *포브테일 제품 정보:",
+          "translation": "🐕 Comment event 🐕 Tell us what you thought of the Bernese Mountain Dog breed guide. We'll draw two people who leave fun, useful comments and send them a Foretail vest + dog coat! *Foretail product info: [link]",
+          "operations": [
+            "Remove URLs",
+            "Collapse whitespace"
+          ],
+          "note": "The link disappears; the emoji, punctuation, and promotional text stay.",
+          "author": "@Bodeumofficial"
+        },
+        {
+          "label": "A comment written with line breaks",
+          "slot": "cancel-1",
+          "raw": "마음이  너무  아픕니다\n포기하지 마세요\n진실은  밝혀집니다\n힘내시고 \n응원합니다",
+          "clean": "마음이 너무 아픕니다 포기하지 마세요 진실은 밝혀집니다 힘내시고 응원합니다",
+          "translation": "My heart aches so much. Don't give up. The truth will come out. Stay strong—I'm rooting for you.",
+          "operations": [
+            "Collapse whitespace",
+            "Normalize spacing"
+          ],
+          "note": "Line breaks and repeated spaces become single spaces.",
+          "author": "@김경숙-s4l"
+        }
+      ],
+      "dedup": {
+        "label": "The same reply, posted twice",
+        "text": "저기서 갑질이 뭐가있냐?",
+        "author": "@구름-s6g",
+        "timestamp": 1745107200,
+        "keptId": "Ugyir5DlBkyeqliWOgd4AaABAg.A3tssch5zAmA3tx-Q9xetS",
+        "droppedId": "Ugyir5DlBkyeqliWOgd4AaABAg.A3tssch5zAmA3tx1ZEcOLx",
+        "slot": "cancel-1",
+        "note": "Same author, same text, same timestamp. The second copy is removed before any modeling."
+      },
+      "rawComment": {
+        "id": "Ugwo3w6aE2-s1kqFXHN4AaABAg",
+        "parent": "root",
+        "author": "@도토리-s4u",
+        "author_id": "UCzWsZKGw1_paX9MfjitRlsA",
+        "text": "마녀사냥 그만하고\n그 직원들 얼굴  공개하고  무고죄로\n고소해라\n지들 비위상한다고\n또 누굴  죽이려하는지\n강형욱님 힘내세요",
+        "like_count": 664,
+        "timestamp": 1745107200
+      },
+      "transcript": {
+        "text": "안녕하세요. 훈련사 강영웅입니다.\n사실 여부를 따지기에 앞서서\n이런 소식으로 좀 시끄럽게 만들고\n좋지 못한 소식을 이렇게 전해드려서\n정말 죄송합니다.\n저는 조금 더 반려견하고 잘 살 수 있는 얘기들을\n해야 되는 사람인데\n그렇지 못한 행동들로\n안 좋은 모습 보여드려서 정말 죄송합니다.",
+        "translation": "Hello. I'm trainer Kang Hyung-wook. Before asking whether the allegations are true, I'm truly sorry for making noise with this news and for bringing you such bad news. I'm someone who should be talking about how to live better with dogs, but I'm sorry for showing you a bad side through actions that fell short.",
+        "note": "The local Whisper transcript mishears “강형욱” as “강영웅” in its first line. Transcripts were collected but not analyzed in the paper."
+      },
+      "apology": {
+        "slot": "cancel-1",
+        "window": "cancel",
+        "number": 1,
+        "videoId": "e5N9eXLcfag",
+        "title": "늦어져서 죄송합니다.",
+        "titleEn": "I’m sorry it took so long.",
+        "date": "2024-05-24",
+        "views": 6892536,
+        "likes": 196745,
+        "sentiment": 0.80529433,
+        "n": 94521,
+        "pos": 45.47031876514214,
+        "neg": 40.575110292950775,
+        "neu": 13.954570941907091,
+        "network": {
+          "nodes": 18586,
+          "edges": 30052,
+          "density": 8.700112769696765e-05,
+          "modularity": 0.7687148289414162,
+          "communities": 969,
+          "cascade": 24,
+          "inDegreeMean": 1.6169159582481438,
+          "degreeGini": 0.7650497128195985,
+          "hubDominance": 307.9937441767603,
+          "degreeVariance": 85.70431731533017,
+          "components": 915
+        }
+      }
+    },
+    "mimiminu": {
+      "name": "Mimiminu",
+      "person": "Kim Min-woo",
+      "handle": "@mimiminu_official",
+      "role": "Education creator · former teacher",
+      "short": "Mimiminu",
+      "accent": "slate",
+      "trigger": "Promoted app filed for bankruptcy, trapping student deposits",
+      "triggerDetail": "Part-time Study, an educational app Miminu promoted, filed for bankruptcy, affecting student deposits. He returned his 100-million KRW advertising fee and contributed an additional amount to a victim fund.",
+      "outcome": "He continued publishing after the apology. Post-window sentiment stayed above its pre-window level.",
+      "apologyTitleEn": "I'm sorry for the Part-time Study bankruptcy and deposit delays.",
+      "opening": "A financial scandal with student victims",
+      "raw": 16794,
+      "empty": 3,
+      "duplicates": 43,
+      "labelCounts": {
+        "POSITIVE": 9873,
+        "NEGATIVE": 4309,
+        "NEUTRAL": 2566
+      },
+      "replyLinks": {
+        "pre": 4208,
+        "cancel": 800,
+        "post": 2102
+      },
+      "threadRoot": "Ugwx5jli6eEzYZUNt7x4AaABAg",
+      "transcriptTranslation": "Hello. I'm Miminu. On Monday, November 24, the Part-time Study service I advertised on this channel filed for bankruptcy without warning, and many people have been unable to get their deposits back. I turned on the camera to explain my position and what I plan to do. Put simply, I will formally return the entire advertising fee I received, plus an additional amount, to the victims—and I will try to help those who are losing sleep and suffering right now as they face a difficult fight ahead.",
+      "transcriptNote": "Collected with faster-whisper, locally. The paper uses transcripts as context; it does not run a linguistic analysis of the apology videos.",
+      "id": "mimiminu",
+      "nonEmpty": 16791,
+      "analyzed": 16748,
+      "windows": {
+        "pre": {
+          "mean": 0.77332217,
+          "n": 8170,
+          "pos": 56.903304773561814,
+          "neg": 26.291309669522644,
+          "neu": 16.805385556915546,
+          "slotMean": 0.7800058,
+          "start": "2025-11-10",
+          "end": "2025-11-22",
+          "days": 12,
+          "videos": 10,
+          "replyLinks": 4208
+        },
+        "cancel": {
+          "mean": 0.80410117,
+          "n": 3013,
+          "pos": 48.65582475937604,
+          "neg": 37.769664785927645,
+          "neu": 13.574510454696314,
+          "slotMean": 0.80410117,
+          "start": "2025-11-24",
+          "end": "2025-11-24",
+          "days": 0,
+          "videos": 1,
+          "replyLinks": 800
+        },
+        "post": {
+          "mean": 0.8019606,
+          "n": 5565,
+          "pos": 67.52920035938904,
+          "neg": 18.382749326145554,
+          "neu": 14.08805031446541,
+          "slotMean": 0.8111323,
+          "start": "2025-11-25",
+          "end": "2025-12-12",
+          "days": 17,
+          "videos": 10,
+          "replyLinks": 2102
+        }
+      },
+      "slots": [
+        {
+          "slot": "pre-10",
+          "window": "pre",
+          "number": 10,
+          "videoId": "cs7XGyR6ZyY",
+          "title": "\"TEAM08 준비되셨어?\" 2027수능 대비 메가패스 광고 촬영 현장에서 아일릿(ILLIT) 만났습니다",
+          "titleEn": "“TEAM08, are you ready?” Meeting ILLIT on the set of a Megapass ad for the 2027 CSAT",
+          "date": "2025-11-10",
+          "views": 204128,
+          "likes": 5184,
+          "sentiment": 0.7932827,
+          "n": 649,
+          "pos": 68.25885978428352,
+          "neg": 18.952234206471495,
+          "neu": 12.788906009244993,
+          "network": {
+            "nodes": 236,
+            "edges": 234,
+            "density": 0.00421925712225027,
+            "modularity": 0.846665776777712,
+            "communities": 33,
+            "cascade": 6,
+            "inDegreeMean": 0.9915254237288136,
+            "degreeGini": 0.8230117340286831,
+            "hubDominance": 21.17948717948718,
+            "degreeVariance": 6.745690893421432,
+            "components": 22
+          }
+        },
+        {
+          "slot": "pre-9",
+          "window": "pre",
+          "number": 9,
+          "videoId": "Fl_J4fj1XfE",
+          "title": "[5BS] 김민우 - Farewellcome 2026. ver.",
+          "titleEn": "[5BS] Kim Min-woo — Farewellcome 2026 ver.",
+          "date": "2025-11-11",
+          "views": 261744,
+          "likes": 7432,
+          "sentiment": 0.8284683,
+          "n": 686,
+          "pos": 75.21865889212827,
+          "neg": 15.597667638483964,
+          "neu": 9.183673469387756,
+          "network": {
+            "nodes": 188,
+            "edges": 178,
+            "density": 0.005063147115712823,
+            "modularity": 0.8725402370927767,
+            "communities": 34,
+            "cascade": 5,
+            "inDegreeMean": 0.9468085106382979,
+            "degreeGini": 0.8542314128615827,
+            "hubDominance": 29.573033707865168,
+            "degreeVariance": 9.029085559076503,
+            "components": 29
+          }
+        },
+        {
+          "slot": "pre-8",
+          "window": "pre",
+          "number": 8,
+          "videoId": "jWG1-FgoUkM",
+          "title": "\"수능 4일 전 롤드컵 결승 어떻게 참는데?\" T1 월즈 쓰리핏 축하드립니다",
+          "titleEn": "“How can I watch the Worlds final four days before the CSAT?” Congratulations to T1 on the three-peat",
+          "date": "2025-11-13",
+          "views": 314374,
+          "likes": 5689,
+          "sentiment": 0.78361887,
+          "n": 448,
+          "pos": 59.82142857142857,
+          "neg": 23.4375,
+          "neu": 16.741071428571427,
+          "network": {
+            "nodes": 116,
+            "edges": 108,
+            "density": 0.008095952023988006,
+            "modularity": 0.8395061728395061,
+            "communities": 19,
+            "cascade": 5,
+            "inDegreeMean": 0.9310344827586207,
+            "degreeGini": 0.805874840357599,
+            "hubDominance": 19.333333333333332,
+            "degreeVariance": 5.3228299643281805,
+            "components": 14
+          }
+        },
+        {
+          "slot": "pre-7",
+          "window": "pre",
+          "number": 7,
+          "videoId": "StL45CpUyGw",
+          "title": "\"학생들이 와서 사진 찍어달라고 했어요\" 헬스터디3 학생들이 들려주는 2026수능 썰",
+          "titleEn": "“Students came up and asked for photos” — Health Study 3 students share their 2026 CSAT stories",
+          "date": "2025-11-14",
+          "views": 516154,
+          "likes": 4946,
+          "sentiment": 0.7645768,
+          "n": 1035,
+          "pos": 51.01449275362319,
+          "neg": 30.04830917874396,
+          "neu": 18.937198067632853,
+          "network": {
+            "nodes": 549,
+            "edges": 665,
+            "density": 0.002210389161448154,
+            "modularity": 0.842968780139655,
+            "communities": 44,
+            "cascade": 6,
+            "inDegreeMean": 1.2112932604735884,
+            "degreeGini": 0.8050782694441021,
+            "hubDominance": 26.418045112781954,
+            "degreeVariance": 8.66573767173964,
+            "components": 24
+          }
+        },
+        {
+          "slot": "pre-6",
+          "window": "pre",
+          "number": 6,
+          "videoId": "Pco7C4KoWWs",
+          "title": "\"한국사 29점? 영어 79점? 하..\" 천국과 지옥을 오갔던 헬스터디3 학생들의 2026수능 채점 라이브",
+          "titleEn": "“29 in Korean History? 79 in English? Ha...” Health Study 3 students’ 2026 CSAT grading livestream",
+          "date": "2025-11-15",
+          "views": 668312,
+          "likes": 5529,
+          "sentiment": 0.77239454,
+          "n": 1026,
+          "pos": 57.21247563352827,
+          "neg": 26.99805068226121,
+          "neu": 15.789473684210526,
+          "network": {
+            "nodes": 527,
+            "edges": 615,
+            "density": 0.0022185987114090085,
+            "modularity": 0.8585944638538027,
+            "communities": 46,
+            "cascade": 8,
+            "inDegreeMean": 1.1669829222011385,
+            "degreeGini": 0.7990250073278722,
+            "hubDominance": 23.99349593495935,
+            "degreeVariance": 8.032837766311763,
+            "components": 29
+          }
+        },
+        {
+          "slot": "pre-5",
+          "window": "pre",
+          "number": 5,
+          "videoId": "C6Jc8bcdcws",
+          "title": "\"모의고사 때보다 독서 왜 이렇게 어려워요?\" 체감 난도가 미쳐 날뛰었던 2026수능 국어 리뷰 with 유리한국어",
+          "titleEn": "“Why is reading so much harder than in mock exams?” Reviewing the brutal 2026 CSAT Korean section",
+          "date": "2025-11-16",
+          "views": 630789,
+          "likes": 6850,
+          "sentiment": 0.75821906,
+          "n": 1545,
+          "pos": 51.262135922330096,
+          "neg": 29.579288025889966,
+          "neu": 19.158576051779935,
+          "network": {
+            "nodes": 659,
+            "edges": 830,
+            "density": 0.0019141095239632675,
+            "modularity": 0.8512454835479879,
+            "communities": 54,
+            "cascade": 14,
+            "inDegreeMean": 1.25948406676783,
+            "degreeGini": 0.7851801744154159,
+            "hubDominance": 55.57831325301205,
+            "degreeVariance": 15.958464680702125,
+            "components": 31
+          }
+        },
+        {
+          "slot": "pre-4",
+          "window": "pre",
+          "number": 4,
+          "videoId": "188m_yF45Xw",
+          "title": "\"킬러 문항 배제? 됐고, 킬러 부활했어요\" 모의고사와 느낌이 달랐던 2026수능 수학 리뷰 with 수학하는 땅우",
+          "titleEn": "“No killer questions? Forget it—the killers are back.” Reviewing the 2026 CSAT math section",
+          "date": "2025-11-17",
+          "views": 434286,
+          "likes": 3625,
+          "sentiment": 0.7592871,
+          "n": 706,
+          "pos": 53.966005665722385,
+          "neg": 29.603399433427764,
+          "neu": 16.43059490084986,
+          "network": {
+            "nodes": 371,
+            "edges": 432,
+            "density": 0.0031470823923654113,
+            "modularity": 0.8145383979503896,
+            "communities": 47,
+            "cascade": 10,
+            "inDegreeMean": 1.1644204851752022,
+            "degreeGini": 0.7754692023559948,
+            "hubDominance": 25.763888888888886,
+            "degreeVariance": 6.875930863623484,
+            "components": 34
+          }
+        },
+        {
+          "slot": "pre-3",
+          "window": "pre",
+          "number": 3,
+          "videoId": "_O8QOqa-RyQ",
+          "title": "\"찍기 특강 믿었는데 망했어요\" 불수능을 넘어 잔인했던 2026수능 영어 리뷰",
+          "titleEn": "“I trusted the guessing lecture and bombed” — reviewing the cruel 2026 CSAT English section",
+          "date": "2025-11-18",
+          "views": 745942,
+          "likes": 7209,
+          "sentiment": 0.7576883,
+          "n": 1350,
+          "pos": 48.44444444444444,
+          "neg": 32.44444444444444,
+          "neu": 19.11111111111111,
+          "network": {
+            "nodes": 609,
+            "edges": 652,
+            "density": 0.0017608676864575231,
+            "modularity": 0.872341810713338,
+            "communities": 62,
+            "cascade": 6,
+            "inDegreeMean": 1.070607553366174,
+            "degreeGini": 0.8291023200056413,
+            "hubDominance": 42.032208588957054,
+            "degreeVariance": 10.341484195739337,
+            "components": 46
+          }
+        },
+        {
+          "slot": "pre-2",
+          "window": "pre",
+          "number": 2,
+          "videoId": "K04O8NNXtIk",
+          "title": "\"가천대학교에서는 워터밤이 열려요\" 가천대학교에 가서 대학생들 학점 판독하고 왔습니다 | 허수판독기 27화",
+          "titleEn": "“Gachon University hosts a waterbomb” — grading college students’ GPAs at Gachon · GPA Reader EP.27",
+          "date": "2025-11-20",
+          "views": 406057,
+          "likes": 4040,
+          "sentiment": 0.7612497,
+          "n": 430,
+          "pos": 60.0,
+          "neg": 21.3953488372093,
+          "neu": 18.6046511627907,
+          "network": {
+            "nodes": 197,
+            "edges": 183,
+            "density": 0.004739459235470838,
+            "modularity": 0.9049356096408318,
+            "communities": 38,
+            "cascade": 4,
+            "inDegreeMean": 0.9289340101522843,
+            "degreeGini": 0.7677456936007323,
+            "hubDominance": 16.147540983606557,
+            "degreeVariance": 3.588858254528589,
+            "components": 36
+          }
+        },
+        {
+          "slot": "pre-1",
+          "window": "pre",
+          "number": 1,
+          "videoId": "GCDooyBOfDU",
+          "title": "“학생들 인스타그램 염탐하세요?” 서울대 고려대 연세대 출신 선생님들끼리 기싸움했습니다",
+          "titleEn": "“Do you snoop on students’ Instagram?” Teachers from Seoul National, Korea, and Yonsei universities compete",
+          "date": "2025-11-22",
+          "views": 226159,
+          "likes": 2913,
+          "sentiment": 0.82127285,
+          "n": 295,
+          "pos": 75.2542372881356,
+          "neg": 9.830508474576272,
+          "neu": 14.915254237288137,
+          "network": {
+            "nodes": 87,
+            "edges": 86,
+            "density": 0.011494252873563218,
+            "modularity": 0.8280749885688157,
+            "communities": 14,
+            "cascade": 4,
+            "inDegreeMean": 0.9885057471264368,
+            "degreeGini": 0.6925955626837743,
+            "hubDominance": 12.13953488372093,
+            "degreeVariance": 2.9998678821508795,
+            "components": 11
+          }
+        },
+        {
+          "slot": "cancel-1",
+          "window": "cancel",
+          "number": 1,
+          "videoId": "txst-JeT4Qk",
+          "title": "‘파트타임스터디’ 파산 및 보증금 반환 지연에 사과드립니다",
+          "titleEn": "I’m sorry for the Part-time Study bankruptcy and delayed deposit refunds.",
+          "date": "2025-11-24",
+          "views": 1804890,
+          "likes": 27710,
+          "sentiment": 0.80410117,
+          "n": 3013,
+          "pos": 48.65582475937604,
+          "neg": 37.769664785927645,
+          "neu": 13.574510454696314,
+          "network": {
+            "nodes": 709,
+            "edges": 756,
+            "density": 0.0015060600989696637,
+            "modularity": 0.8811518773771054,
+            "communities": 77,
+            "cascade": 7,
+            "inDegreeMean": 1.0662905500705218,
+            "degreeGini": 0.8058036880321788,
+            "hubDominance": 64.71031746031747,
+            "degreeVariance": 10.854561839417046,
+            "components": 58
+          }
+        },
+        {
+          "slot": "post-1",
+          "window": "post",
+          "number": 1,
+          "videoId": "BfF84C_vmE4",
+          "title": "\"TEAM08 이제는 진짜 준비 되셨어?\" 2027수능 인강 패스 분석해보았습니다",
+          "titleEn": "“TEAM08, are you really ready now?” Analyzing the 2027 CSAT online-course passes",
+          "date": "2025-11-25",
+          "views": 489492,
+          "likes": 8218,
+          "sentiment": 0.7754961,
+          "n": 983,
+          "pos": 64.6998982706002,
+          "neg": 19.938962360122076,
+          "neu": 15.361139369277721,
+          "network": {
+            "nodes": 385,
+            "edges": 386,
+            "density": 0.002610930735930736,
+            "modularity": 0.8807150485683771,
+            "communities": 58,
+            "cascade": 5,
+            "inDegreeMean": 1.0025974025974025,
+            "degreeGini": 0.8381670143328175,
+            "hubDominance": 29.922279792746117,
+            "degreeVariance": 7.70129195479845,
+            "components": 47
+          }
+        },
+        {
+          "slot": "post-2",
+          "window": "post",
+          "number": 2,
+          "videoId": "kyKBg6emrl4",
+          "title": "\"대한외국인의 미적분 문제 도전!\" 현대자동차 연구원들의 현재 수학 실력은? | 길거리수학챌린지 15화",
+          "titleEn": "“The calculus challenge from a foreigner!” How good are Hyundai researchers at math? · Street Math Challenge EP.15",
+          "date": "2025-11-26",
+          "views": 518281,
+          "likes": 6017,
+          "sentiment": 0.8156443,
+          "n": 385,
+          "pos": 70.12987012987013,
+          "neg": 18.181818181818183,
+          "neu": 11.688311688311687,
+          "network": {
+            "nodes": 130,
+            "edges": 116,
+            "density": 0.0069171138938580795,
+            "modularity": 0.8957277882797732,
+            "communities": 30,
+            "cascade": 5,
+            "inDegreeMean": 0.8923076923076924,
+            "degreeGini": 0.7339522546419099,
+            "hubDominance": 14.568965517241379,
+            "degreeVariance": 3.0191715976331355,
+            "components": 28
+          }
+        },
+        {
+          "slot": "post-3",
+          "window": "post",
+          "number": 3,
+          "videoId": "QnD4FUFGcJk",
+          "title": "\"대표님 앞에서 이걸 진짜 해요..?\" 보드게임카페 레드버튼 본사 최종 PT발표하고 왔습니다 | 미미미생 ep.28",
+          "titleEn": "“Are you really doing this in front of the CEO..?” Final pitch at Board Game Cafe Red Button HQ · Mimimi Life EP.28",
+          "date": "2025-11-28",
+          "views": 337752,
+          "likes": 3457,
+          "sentiment": 0.86290526,
+          "n": 513,
+          "pos": 79.14230019493176,
+          "neg": 11.500974658869396,
+          "neu": 9.35672514619883,
+          "network": {
+            "nodes": 62,
+            "edges": 46,
+            "density": 0.012162876784769964,
+            "modularity": 0.871219281663516,
+            "communities": 18,
+            "cascade": 4,
+            "inDegreeMean": 0.7419354838709677,
+            "degreeGini": 0.7699859747545583,
+            "hubDominance": 9.434782608695652,
+            "degreeVariance": 2.0624349635796047,
+            "components": 17
+          }
+        },
+        {
+          "slot": "post-4",
+          "window": "post",
+          "number": 4,
+          "videoId": "-HwG0EZCuJM",
+          "title": "\"내신 승부처는 2학년 2학기예요\" 부상으로 운동을 관두고 대학을 가려는데 그동안의 생기부가 걱정되는 고1 여학생의 사연 | All About 입시 104화",
+          "titleEn": "“Sophomore fall is where your school record is won” — a freshman worried about her record after quitting sports · All About Admissions EP.104",
+          "date": "2025-11-29",
+          "views": 150206,
+          "likes": 2009,
+          "sentiment": 0.82982785,
+          "n": 141,
+          "pos": 70.2127659574468,
+          "neg": 16.312056737588655,
+          "neu": 13.47517730496454,
+          "network": {
+            "nodes": 49,
+            "edges": 38,
+            "density": 0.016156462585034014,
+            "modularity": 0.8926223520818116,
+            "communities": 13,
+            "cascade": 4,
+            "inDegreeMean": 0.7755102040816326,
+            "degreeGini": 0.7035445757250269,
+            "hubDominance": 6.447368421052632,
+            "degreeVariance": 1.357767596834652,
+            "components": 13
+          }
+        },
+        {
+          "slot": "post-5",
+          "window": "post",
+          "number": 5,
+          "videoId": "wClDqp9YGV0",
+          "title": "\"고등 수학과 대학 수학은 아예 달라요\" | 학과인물사전 14장. 수학과 편",
+          "titleEn": "“High-school math and university math are completely different” · Department Profiles 14: Mathematics",
+          "date": "2025-11-30",
+          "views": 291864,
+          "likes": 5290,
+          "sentiment": 0.81928897,
+          "n": 466,
+          "pos": 79.18454935622317,
+          "neg": 10.72961373390558,
+          "neu": 10.085836909871244,
+          "network": {
+            "nodes": 97,
+            "edges": 86,
+            "density": 0.009235395189003437,
+            "modularity": 0.8861546782044348,
+            "communities": 21,
+            "cascade": 5,
+            "inDegreeMean": 0.8865979381443299,
+            "degreeGini": 0.7439462958523135,
+            "hubDominance": 13.534883720930234,
+            "degreeVariance": 3.1108513125730677,
+            "components": 21
+          }
+        },
+        {
+          "slot": "post-6",
+          "window": "post",
+          "number": 6,
+          "videoId": "_SRS7-qJZYk",
+          "title": "\"사교육 인강 시장에서 강의할 생각 없어요\" EBS 국어 영역 대표 강사 윤혜정 선생님을 모셨습니다",
+          "titleEn": "“I have no plans to lecture in the private online-course market” — EBS Korean instructor Yun Hye-jeong joins",
+          "date": "2025-12-03",
+          "views": 547967,
+          "likes": 8537,
+          "sentiment": 0.82994753,
+          "n": 658,
+          "pos": 71.580547112462,
+          "neg": 17.17325227963526,
+          "neu": 11.246200607902736,
+          "network": {
+            "nodes": 221,
+            "edges": 236,
+            "density": 0.004853969559851913,
+            "modularity": 0.8448166591217745,
+            "communities": 24,
+            "cascade": 5,
+            "inDegreeMean": 1.0678733031674208,
+            "degreeGini": 0.805276478257535,
+            "hubDominance": 15.919491525423728,
+            "degreeVariance": 6.054216744128909,
+            "components": 14
+          }
+        },
+        {
+          "slot": "post-7",
+          "window": "post",
+          "number": 7,
+          "videoId": "wE7qnWtYf8o",
+          "title": "\"성공과 행복은 별개의 문제예요\" 입시와 인생에 대해 다시 한번 고찰하게 만드는 윤도영T의 쓴소리 | All About 입시 105화",
+          "titleEn": "“Success and happiness are separate questions” — Yoon Do-young’s sharp advice on admissions and life · All About Admissions EP.105",
+          "date": "2025-12-05",
+          "views": 308317,
+          "likes": 4406,
+          "sentiment": 0.83106935,
+          "n": 260,
+          "pos": 68.46153846153847,
+          "neg": 18.076923076923077,
+          "neu": 13.461538461538462,
+          "network": {
+            "nodes": 103,
+            "edges": 96,
+            "density": 0.009137635636778984,
+            "modularity": 0.8890230648472407,
+            "communities": 19,
+            "cascade": 4,
+            "inDegreeMean": 0.9320388349514563,
+            "degreeGini": 0.8220064724919094,
+            "hubDominance": 13.947916666666666,
+            "degreeVariance": 4.665284192666605,
+            "components": 17
+          }
+        },
+        {
+          "slot": "post-8",
+          "window": "post",
+          "number": 8,
+          "videoId": "2rU6XVf5HBc",
+          "title": "[수능 수학 간담회] \"수능 제도 바뀌면 강사의 노동량이 줄어요\" with 메가스터디 김성은T, 대성마이맥 정병호T, 이투스 강윤구T, 수학하는 땅우",
+          "titleEn": "[CSAT Math Roundtable] “If the exam changes, instructors work less” with Kim Seong-eun, Jeong Byeong-ho, Kang Yun-gu, and Math Rangu",
+          "date": "2025-12-08",
+          "views": 324754,
+          "likes": 4799,
+          "sentiment": 0.7776902,
+          "n": 981,
+          "pos": 64.72986748216107,
+          "neg": 18.654434250764528,
+          "neu": 16.615698267074414,
+          "network": {
+            "nodes": 417,
+            "edges": 439,
+            "density": 0.002530667773473529,
+            "modularity": 0.866240278559663,
+            "communities": 46,
+            "cascade": 6,
+            "inDegreeMean": 1.052757793764988,
+            "degreeGini": 0.8363241070014149,
+            "hubDominance": 73.14123006833714,
+            "degreeVariance": 19.301772970113117,
+            "components": 33
+          }
+        },
+        {
+          "slot": "post-9",
+          "window": "post",
+          "number": 9,
+          "videoId": "U2sxi4yIL1o",
+          "title": "\"갑자기 사람들이 자꾸 저를 낳아요(?)\" 뉴미디어의 시대를 연 연세대 법대 출신 유튜버 | N수의 신 74화",
+          "titleEn": "“People keep giving birth to me (?)” — a Yonsei law graduate YouTuber who opened the new-media era · New Number’s God EP.74",
+          "date": "2025-12-10",
+          "views": 332058,
+          "likes": 6568,
+          "sentiment": 0.80203164,
+          "n": 462,
+          "pos": 67.31601731601732,
+          "neg": 19.047619047619047,
+          "neu": 13.636363636363635,
+          "network": {
+            "nodes": 190,
+            "edges": 171,
+            "density": 0.004761904761904762,
+            "modularity": 0.8864964681415612,
+            "communities": 31,
+            "cascade": 6,
+            "inDegreeMean": 0.9,
+            "degreeGini": 0.8383810403200984,
+            "hubDominance": 22.22222222222222,
+            "degreeVariance": 6.426842105263157,
+            "components": 25
+          }
+        },
+        {
+          "slot": "post-10",
+          "window": "post",
+          "number": 10,
+          "videoId": "ksZM1-bScig",
+          "title": "\"정시는 언제 끝날지 기약이 없어요\" 내신보다 높은 모의고사 성적 때문에 정시파이터를 희망하는 고2 여고생의 사연 | All About 입시 106화",
+          "titleEn": "“There’s no telling when the regular admissions cycle ends” — a sophomore hoping for regular admissions · All About Admissions EP.106",
+          "date": "2025-12-12",
+          "views": 309614,
+          "likes": 3036,
+          "sentiment": 0.7674218,
+          "n": 716,
+          "pos": 53.49162011173184,
+          "neg": 27.09497206703911,
+          "neu": 19.41340782122905,
+          "network": {
+            "nodes": 344,
+            "edges": 378,
+            "density": 0.003203607024205031,
+            "modularity": 0.8777611395178964,
+            "communities": 45,
+            "cascade": 8,
+            "inDegreeMean": 1.0988372093023255,
+            "degreeGini": 0.7809923711086502,
+            "hubDominance": 29.121693121693124,
+            "degreeVariance": 7.728603299080586,
+            "components": 34
+          }
+        }
+      ],
+      "recovery": {
+        "slotMean": {
+          "pre": 0.7800058,
+          "cancel": 0.80410117,
+          "post": 0.8111323
+        },
+        "nadirSlot": "pre-3",
+        "nadirValue": 0.7576883,
+        "recoverySlot": "post-1",
+        "pctCancelVsPre": 3.0891252,
+        "pctPostVsPre": 3.990547
+      },
+      "network": {
+        "windows": {
+          "pre": {
+            "nodes": 3088,
+            "edges": 3979,
+            "density": 0.00041740727872693613,
+            "components": 163,
+            "inDegreeMean": 1.2885362694300517,
+            "inDegreeMax": 70,
+            "degreeGini": 0.7970124403116361,
+            "hubDominance": 54.32520733852727,
+            "communities": 202,
+            "modularity": 0.8355360878680107,
+            "cascade": 20,
+            "replyLinks": 4208
+          },
+          "cancel": {
+            "nodes": 709,
+            "edges": 756,
+            "density": 0.0015060600989696637,
+            "components": 58,
+            "inDegreeMean": 1.0662905500705218,
+            "inDegreeMax": 69,
+            "degreeGini": 0.8058036880321788,
+            "hubDominance": 64.71031746031747,
+            "communities": 77,
+            "modularity": 0.8811518773771054,
+            "cascade": 7,
+            "replyLinks": 800
+          },
+          "post": {
+            "nodes": 1864,
+            "edges": 1992,
+            "density": 0.0005736283026822307,
+            "components": 177,
+            "inDegreeMean": 1.0686695278969958,
+            "inDegreeMax": 87,
+            "degreeGini": 0.8104887360601203,
+            "hubDominance": 81.40963855421687,
+            "communities": 204,
+            "modularity": 0.9116077738885334,
+            "cascade": 8,
+            "replyLinks": 2102
+          }
+        },
+        "amplification": {
+          "edges": 0.1899974868057301,
+          "nodes": 0.22959844559585493,
+          "density": 3.6081308969097154,
+          "gini": 1.0110302515693548
+        },
+        "thread": {
+          "rootId": "Ugwx5jli6eEzYZUNt7x4AaABAg",
+          "nodes": [
+            {
+              "id": "Ugwx5jli6eEzYZUNt7x4AaABAg",
+              "parentId": "root",
+              "author": "@Saturdayq",
+              "handle": "Saturdayq",
+              "text": "가해자가 해야할 보상을 왜 모델이 함? 이걸로 가해자의 책임이 가벼워지지 않길",
+              "textClean": "가해자가 해야할 보상을 왜 모델이 함? 이걸로 가해자의 책임이 가벼워지지 않길",
+              "translation": "Why is the model doing the compensation the perpetrator should do? I hope this doesn't make the perpetrator's responsibility lighter.",
+              "sentiment": "NEGATIVE",
+              "score": 0.81396836,
+              "likes": 1200,
+              "depth": 0,
+              "slot": "cancel-1"
+            },
+            {
+              "id": "Ugwx5jli6eEzYZUNt7x4AaABAg.APwa9Zg9PWKARQnbAdNBo6",
+              "parentId": "Ugwx5jli6eEzYZUNt7x4AaABAg",
+              "author": "@code_zero",
+              "handle": "code_zero",
+              "text": "단순 모델이 아니고 대행사 역할인거지.",
+              "textClean": "단순 모델이 아니고 대행사 역할인거지.",
+              "translation": "He wasn't just a model—he was acting as an agency.",
+              "sentiment": "NEGATIVE",
+              "score": 0.9400336,
+              "likes": 1,
+              "depth": 1,
+              "slot": "cancel-1"
+            },
+            {
+              "id": "Ugwx5jli6eEzYZUNt7x4AaABAg.APwa9Zg9PWKARkpwhtiSxH",
+              "parentId": "Ugwx5jli6eEzYZUNt7x4AaABAg.APwa9Zg9PWKARQnbAdNBo6",
+              "author": "@sol4342",
+              "handle": "sol4342",
+              "text": "​ @code_zero  딱 너같은애 때문에 어쩔수없는거지\n너같은애들 몇명 모이면 그냥 재미로 모이는 애들까지 해서 얼마나 물타기 하겠냐",
+              "textClean": "​ @code_zero 딱 너같은애 때문에 어쩔수없는거지 너같은애들 몇명 모이면 그냥 재미로 모이는 애들까지 해서 얼마나 물타기 하겠냐",
+              "translation": "This is exactly why he has no choice. Once a few people like you—and others who join just for fun—pile on, how much muddying of the waters will there be?",
+              "sentiment": "NEUTRAL",
+              "score": 0.5883889,
+              "likes": 0,
+              "depth": 2,
+              "slot": "cancel-1"
+            },
+            {
+              "id": "Ugwx5jli6eEzYZUNt7x4AaABAg.APwa9Zg9PWKAQQYTuzBZSv",
+              "parentId": "Ugwx5jli6eEzYZUNt7x4AaABAg",
+              "author": "@sszazz6326",
+              "handle": "sszazz6326",
+              "text": "아니 내말이 이사람이 그냥 모델아님? 뭐 지분자도 아닌거같은데 왜 사과하고 보상하고 있냐 ㅋㅋㅋ",
+              "textClean": "아니 내말이 이사람이 그냥 모델아님? 뭐 지분자도 아닌거같은데 왜 사과하고 보상하고 있냐 ㅋㅋㅋ",
+              "translation": "Right—isn't he just a model? He doesn't even seem to be a shareholder. Why is he apologizing and compensating? lol",
+              "sentiment": "NEGATIVE",
+              "score": 0.9697704,
+              "likes": 7,
+              "depth": 1,
+              "slot": "cancel-1"
+            },
+            {
+              "id": "Ugwx5jli6eEzYZUNt7x4AaABAg.APwa9Zg9PWKAQczlxZl5sK",
+              "parentId": "Ugwx5jli6eEzYZUNt7x4AaABAg.APwa9Zg9PWKAQQYTuzBZSv",
+              "author": "@Xkwks",
+              "handle": "Xkwks",
+              "text": "​ @sszazz6326 본인 이미지에 타격이 많이 가니까 아렇게라도 해서 조금이라도 덜가게하는거잖어",
+              "textClean": "​ @sszazz6326 본인 이미지에 타격이 많이 가니까 아렇게라도 해서 조금이라도 덜가게하는거잖어",
+              "translation": "Because his image is taking a big hit, he's doing this to reduce the damage as much as he can.",
+              "sentiment": "NEUTRAL",
+              "score": 0.54648715,
+              "likes": 0,
+              "depth": 2,
+              "slot": "cancel-1"
+            }
+          ],
+          "edges": [
+            {
+              "source": "Ugwx5jli6eEzYZUNt7x4AaABAg.APwa9Zg9PWKARQnbAdNBo6",
+              "target": "Ugwx5jli6eEzYZUNt7x4AaABAg",
+              "sourceAuthor": "@code_zero",
+              "targetAuthor": "@Saturdayq"
+            },
+            {
+              "source": "Ugwx5jli6eEzYZUNt7x4AaABAg.APwa9Zg9PWKARkpwhtiSxH",
+              "target": "Ugwx5jli6eEzYZUNt7x4AaABAg.APwa9Zg9PWKARQnbAdNBo6",
+              "sourceAuthor": "@sol4342",
+              "targetAuthor": "@code_zero"
+            },
+            {
+              "source": "Ugwx5jli6eEzYZUNt7x4AaABAg.APwa9Zg9PWKAQQYTuzBZSv",
+              "target": "Ugwx5jli6eEzYZUNt7x4AaABAg",
+              "sourceAuthor": "@sszazz6326",
+              "targetAuthor": "@Saturdayq"
+            },
+            {
+              "source": "Ugwx5jli6eEzYZUNt7x4AaABAg.APwa9Zg9PWKAQczlxZl5sK",
+              "target": "Ugwx5jli6eEzYZUNt7x4AaABAg.APwa9Zg9PWKAQQYTuzBZSv",
+              "sourceAuthor": "@Xkwks",
+              "targetAuthor": "@sszazz6326"
+            }
+          ],
+          "authorCount": 5,
+          "nodeCount": 5,
+          "maxDepth": 2,
+          "note": "One real thread. The graph on the right keeps only the unique authors and the reply links between them."
+        }
+      },
+      "sentimentExamples": [
+        {
+          "kind": "positive",
+          "label": "Positive · apology video",
+          "text": "뒤처리 고트네.. 롱런하는 이유가 있어~ 응원해 형",
+          "translation": "The way you handle the aftermath is GOAT-level. There's a reason you last so long. Rooting for you, bro.",
+          "note": "Praise for how he handled the fallout, not for the controversy itself.",
+          "score": 0.98907274,
+          "sentiment": "POSITIVE",
+          "slot": "cancel-1",
+          "likes": 9300
+        },
+        {
+          "kind": "negative",
+          "label": "Negative · apology video",
+          "text": "쓰레기 업체 때문에 대미누 돈 깨지누...",
+          "translation": "Because of a trash company, Miminu is losing money...",
+          "note": "The negative language is aimed at the company, not Miminu. The model scores the surface polarity, not the target of blame.",
+          "score": 0.9791327,
+          "sentiment": "NEGATIVE",
+          "slot": "cancel-1",
+          "likes": 2
+        },
+        {
+          "kind": "neutral",
+          "label": "Neutral · apology video",
+          "text": "진짜 이건 자연재해네...ㅠㅠ",
+          "translation": "This is a natural disaster, honestly... ㅠㅠ",
+          "note": "Sympathy mixed with resignation. The confidence lands just above 0.5, inside the NEUTRAL band.",
+          "score": 0.50683546,
+          "sentiment": "NEUTRAL",
+          "slot": "cancel-1",
+          "likes": 905
+        },
+        {
+          "kind": "positive",
+          "label": "Positive · after the apology",
+          "text": "미누님 항상 응원합니다\n다사다난한 한해였지만 그 자체로도 미누님은 대체 불가능한 존재입니다! 이미 많은 한계들을 넘으셨기에 앞으로 그 한계를 넘는게 점점 힘들고 어려울거 깉아요ㅠㅠ 앞으로도 항상 응원합니다",
+          "translation": "Always rooting for you, Miminu. It's been a turbulent year, but you're irreplaceable in your own right. You've already crossed so many limits that the next ones will be even harder—but I'll always root for you.",
+          "note": "A long-term viewer message. Length does not change the label, but the model reads the closing support clearly.",
+          "score": 0.99485624,
+          "sentiment": "POSITIVE",
+          "slot": "post-5",
+          "likes": 48
+        }
+      ],
+      "cleaningExamples": [
+        {
+          "label": "A promo comment with a URL",
+          "slot": "pre-1",
+          "raw": "🚀에듀플렉스 윈터스쿨로 이번 방학 상위권으로 넘어갈게요!\r\nhttps://eduplex.info/MMMN_1122",
+          "clean": "🚀에듀플렉스 윈터스쿨로 이번 방학 상위권으로 넘어갈게요!",
+          "translation": "🚀 I'll move up to the top ranks this vacation with Eduplex Winter School! [link]",
+          "operations": [
+            "Remove URLs",
+            "Collapse whitespace"
+          ],
+          "note": "Carriage returns and the tracking URL are removed; the emoji remains.",
+          "author": "@mimiminu_official"
+        },
+        {
+          "label": "A comment written with line breaks",
+          "slot": "pre-4",
+          "raw": "미리 기받아가 08들😊😊😊 지나가는 01년생입니당\n언매 100\n확통 96\n영어 100\n윤사 50\n생윤 48",
+          "clean": "미리 기받아가 08들😊😊😊 지나가는 01년생입니당 언매 100 확통 96 영어 100 윤사 50 생윤 48",
+          "translation": "Taking the good vibes in advance, class of '08 😊😊😊 A 2001-born passerby: Korean 100, Math 96, English 100, Ethics 50, Life & Ethics 48.",
+          "operations": [
+            "Collapse whitespace",
+            "Keep emoji"
+          ],
+          "note": "Score lines are joined; emoji and punctuation are preserved.",
+          "author": "@ckasd3579"
+        }
+      ],
+      "dedup": {
+        "label": "The same reply, posted twice",
+        "text": "고마워 😊",
+        "author": "@김성은-f5v",
+        "timestamp": 1766188800,
+        "keptId": "UgysRDDSj0tGWzU4hnl4AaABAg.AQTWIymA0MpAQTrLvfWeaG",
+        "droppedId": "Ugxt2IpnruHNcxP6D4h4AaABAg.AQTW-_Dgwn4AQTrNELHoG0",
+        "slot": "post-8",
+        "note": "Same author, same text, same timestamp. The second copy is removed before any modeling."
+      },
+      "rawComment": {
+        "id": "Ugwx5jli6eEzYZUNt7x4AaABAg",
+        "parent": "root",
+        "author": "@Saturdayq",
+        "author_id": "UC2rF85JlhKnI580f-b-P5LA",
+        "text": "가해자가 해야할 보상을 왜 모델이 함? 이걸로 가해자의 책임이 가벼워지지 않길",
+        "like_count": 1200,
+        "timestamp": 1766188800
+      },
+      "transcript": {
+        "text": "안녕하세요. 미이미누입니다.\n제 채널에서 광고를 진행했던 파트타임 스터디 서비스가\n11월 24일 월요일 아무런 예고도 없이 갑작스럽게 파산 신청을 해서\n많은 분들이 보증금을 환급받지 못하고 있는 현 상황에 대해\n저의 입장과 대응 방안을 직접 전달드리고자 카메라를 켜게 되었습니다.\n결론부터 말씀드리면 제가 받았던 광고비 전액과 추가적인 금액을\n피해자분들에게 정식으로 전달해서\n지금 이 순간에도 잠 못 이루고 마음고생을 하고 계실 분들이\n앞으로 쉽지 않은 싸움을 해나가는데 조금이나마 보탬이 되도록 노력하겠습니다.",
+        "translation": "Hello. I'm Miminu. On Monday, November 24, the Part-time Study service I advertised on this channel filed for bankruptcy without warning, and many people have been unable to get their deposits back. I turned on the camera to explain my position and what I plan to do. Put simply, I will formally return the entire advertising fee I received, plus an additional amount, to the victims—and I will try to help those who are losing sleep and suffering right now as they face a difficult fight ahead.",
+        "note": "Collected with faster-whisper, locally. The paper uses transcripts as context; it does not run a linguistic analysis of the apology videos."
+      },
+      "apology": {
+        "slot": "cancel-1",
+        "window": "cancel",
+        "number": 1,
+        "videoId": "txst-JeT4Qk",
+        "title": "‘파트타임스터디’ 파산 및 보증금 반환 지연에 사과드립니다",
+        "titleEn": "I’m sorry for the Part-time Study bankruptcy and delayed deposit refunds.",
+        "date": "2025-11-24",
+        "views": 1804890,
+        "likes": 27710,
+        "sentiment": 0.80410117,
+        "n": 3013,
+        "pos": 48.65582475937604,
+        "neg": 37.769664785927645,
+        "neu": 13.574510454696314,
+        "network": {
+          "nodes": 709,
+          "edges": 756,
+          "density": 0.0015060600989696637,
+          "modularity": 0.8811518773771054,
+          "communities": 77,
+          "cascade": 7,
+          "inDegreeMean": 1.0662905500705218,
+          "degreeGini": 0.8058036880321788,
+          "hubDominance": 64.71031746031747,
+          "degreeVariance": 10.854561839417046,
+          "components": 58
+        }
+      }
+    }
+  },
+  "evaluation": {
+    "shapiro": {
+      "bodeoum_tv": {
+        "p": "< 0.001",
+        "normal": false
+      },
+      "mimiminu": {
+        "p": "< 0.001",
+        "normal": false
+      },
+      "note": "Shapiro–Wilk on a 5,000-comment random sample; the paper reports non-normal windows for both cases (p < 0.001)."
+    },
+    "kruskal": {
+      "bodeoum_tv": {
+        "H": 4787.54,
+        "df": 2,
+        "p": "< 0.001"
+      },
+      "mimiminu": {
+        "H": 169.7,
+        "df": 2,
+        "p": "< 0.001"
+      }
+    },
+    "dunn": {
+      "bodeoum_tv": [
+        {
+          "a": "pre",
+          "b": "cancel",
+          "p": "< 0.001",
+          "sig": true
+        },
+        {
+          "a": "pre",
+          "b": "post",
+          "p": "< 0.001",
+          "sig": true
+        },
+        {
+          "a": "cancel",
+          "b": "post",
+          "p": "< 0.001",
+          "sig": true
+        }
+      ],
+      "mimiminu": [
+        {
+          "a": "pre",
+          "b": "cancel",
+          "p": "< 0.001",
+          "sig": true
+        },
+        {
+          "a": "pre",
+          "b": "post",
+          "p": "< 0.001",
+          "sig": true
+        },
+        {
+          "a": "cancel",
+          "b": "post",
+          "p": "1.000",
+          "sig": false
+        }
+      ],
+      "note": "Dunn post-hoc with Bonferroni correction."
+    },
+    "pearson": [
+      {
+        "key": "in_degree_mean",
+        "label": "Mean in-degree",
+        "description": "How many replies each author receives, on average.",
+        "bodeoum_tv": {
+          "r": -0.7471841016486438,
+          "p": 9.934005627359354e-05,
+          "sig": true
+        },
+        "mimiminu": {
+          "r": -0.7315930379706358,
+          "p": 0.0001639960082909804,
+          "sig": true
+        }
+      },
+      {
+        "key": "cascade_depth",
+        "label": "Cascade depth",
+        "description": "The longest reply chain in the graph.",
+        "bodeoum_tv": {
+          "r": -0.5995760434814587,
+          "p": 0.004068794752526723,
+          "sig": true
+        },
+        "mimiminu": {
+          "r": -0.5847489030291168,
+          "p": 0.0053672745704504,
+          "sig": true
+        }
+      },
+      {
+        "key": "density",
+        "label": "Density",
+        "description": "Share of all possible author-to-author links that exist.",
+        "bodeoum_tv": {
+          "r": 0.3426364825043468,
+          "p": 0.12839323288305354,
+          "sig": false
+        },
+        "mimiminu": {
+          "r": 0.7355358962865893,
+          "p": 0.0001449365734575468,
+          "sig": true
+        }
+      },
+      {
+        "key": "nodes",
+        "label": "Nodes",
+        "description": "Unique authors in the window.",
+        "bodeoum_tv": {
+          "r": -0.4500898303051431,
+          "p": 0.04062493953454053,
+          "sig": true
+        },
+        "mimiminu": {
+          "r": -0.6758418669022646,
+          "p": 0.0007715782858621397,
+          "sig": true
+        }
+      },
+      {
+        "key": "edges",
+        "label": "Edges",
+        "description": "Unique author-to-author reply links.",
+        "bodeoum_tv": {
+          "r": -0.4481358769424654,
+          "p": 0.041613321008038426,
+          "sig": true
+        },
+        "mimiminu": {
+          "r": -0.681316392942034,
+          "p": 0.0006724292877218268,
+          "sig": true
+        }
+      },
+      {
+        "key": "num_communities",
+        "label": "Communities",
+        "description": "Louvain communities at resolution 1.0.",
+        "bodeoum_tv": {
+          "r": -0.48906636549245724,
+          "p": 0.02445282753354641,
+          "sig": true
+        },
+        "mimiminu": {
+          "r": -0.6565716290564182,
+          "p": 0.0012255148229725818,
+          "sig": true
+        }
+      },
+      {
+        "key": "degree_variance",
+        "label": "Degree variance",
+        "description": "Spread in how many connections authors have.",
+        "bodeoum_tv": {
+          "r": -0.3680470274029646,
+          "p": 0.10068554109798535,
+          "sig": false
+        },
+        "mimiminu": {
+          "r": -0.5334260342100752,
+          "p": 0.012765301706866284,
+          "sig": true
+        }
+      },
+      {
+        "key": "hub_dominance",
+        "label": "Hub dominance",
+        "description": "How much the largest hub stands out.",
+        "bodeoum_tv": {
+          "r": -0.40222212343564107,
+          "p": 0.07067276234788913,
+          "sig": false
+        },
+        "mimiminu": {
+          "r": -0.47142943014389044,
+          "p": 0.030977727265228797,
+          "sig": true
+        }
+      },
+      {
+        "key": "modularity",
+        "label": "Modularity",
+        "description": "How cleanly the graph separates into communities.",
+        "bodeoum_tv": {
+          "r": 0.2024934119700167,
+          "p": 0.37870168880002947,
+          "sig": false
+        },
+        "mimiminu": {
+          "r": 0.22537457703322178,
+          "p": 0.32596709396417106,
+          "sig": false
+        }
+      },
+      {
+        "key": "degree_gini",
+        "label": "Degree Gini",
+        "description": "Inequality in the degree distribution.",
+        "bodeoum_tv": {
+          "r": 0.08313729518635124,
+          "p": 0.7201372707608689,
+          "sig": false
+        },
+        "mimiminu": {
+          "r": -0.26539543752289796,
+          "p": 0.2449423062468242,
+          "sig": false
+        }
+      }
+    ]
+  }
+}
