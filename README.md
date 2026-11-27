@@ -2,12 +2,16 @@
 
 ![FMLDS 2026](https://img.shields.io/badge/FMLDS-2026-b31b1b)
 ![IEEE](https://img.shields.io/badge/IEEE-00629B)
+[![Website](https://img.shields.io/badge/website-dynamics--cc.vercel.app-000000?logo=vercel)](https://dynamics-cc.vercel.app/)
 
 This repository is for a study of YouTube audience reactions to two South Korean influencer
 controversies (Bodeoum TV and Mimiminu) across pre-cancel, cancel, and post-apology windows.
 Comment sentiment is scored with a Korean ELECTRA model
 ([`Copycats/koelectra-base-v3-generalized-sentiment-analysis`](https://huggingface.co/Copycats/koelectra-base-v3-generalized-sentiment-analysis)),
 and comment-reply networks are analyzed with NetworkX.
+
+An interactive walkthrough of the pipeline and results is at
+**[dynamics-cc.vercel.app](https://dynamics-cc.vercel.app/)**.
 
 Max Benedict Chavez, Hannah Lee, Edwin Sadiarin Jr., Raphael Gonda (De La Salle University)
 
@@ -29,7 +33,8 @@ Max Benedict Chavez, Hannah Lee, Edwin Sadiarin Jr., Raphael Gonda (De La Salle 
 │   ├── bodeoum_tv
 │   ├── mimiminu
 │   └── input              # Video lists with window labels
-└── scripts                # run_pipeline.sh, pseudonymize.py
+├── scripts                # run_pipeline.sh, pseudonymize.py
+└── web                    # Project website (React + Vite), deployed on Vercel
 ```
 
 ## Setting up
@@ -54,6 +59,22 @@ time read it from `PERSON` (default `bodeoum_tv`), e.g. `PERSON=mimiminu uv run 
 > [!NOTE]
 > The Kruskal-Wallis H values reported in the paper have since been updated: 6312.98
 > (Bodeoum TV) and 182.97 (Mimiminu) on the full released data. Conclusions are unchanged.
+
+## Website
+
+The source for [dynamics-cc.vercel.app](https://dynamics-cc.vercel.app/) is in `web/`. It is a
+static React + TypeScript + Vite site built from the pipeline outputs (no backend).
+
+```bash
+cd web
+npm install
+npm run dev                         # local dev server
+python3 scripts/generate_data.py    # regenerate src/data/cases.json from pipeline outputs
+```
+
+A Docker image (Node build, nginx serve) can be built from the repository root with
+`docker build -t cancel-culture-atlas . && docker run --rm -p 8080:80 cancel-culture-atlas`.
+See [`web/README.md`](web/README.md) for details.
 
 ## Datasets
 
